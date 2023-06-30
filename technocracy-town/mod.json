@@ -1,0 +1,59 @@
+{
+	"name" : "Technocracy Town",
+	"description" : "New town made by Turbanellos, The Forgotten Fields",
+	"author" : "FF Team, mod : Turbanellos",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "0,1",
+	"modType" : "Town",	
+	
+    "factions" : [ "config/technocracy/town" ],
+	
+	"creatures" :
+	[
+		"config/technocracy/creatures/defender.json",
+		"config/technocracy/creatures/mountainguard.json",
+		"config/technocracy/creatures/javeliner.json",
+		"config/technocracy/creatures/harpooner.json",
+		"config/technocracy/creatures/brute.json",
+		"config/technocracy/creatures/berserker.json",
+		"config/technocracy/creatures/snowbird.json",
+		"config/technocracy/creatures/blizzardbird.json",
+		"config/technocracy/creatures/gladiator.json",
+		"config/technocracy/creatures/flameglad.json",
+		"config/technocracy/creatures/mammoth.json",
+		"config/technocracy/creatures/mammothlord.json",
+		"config/technocracy/creatures/bsfafnir.json",
+		"config/technocracy/creatures/demonicfafnir.json",	
+		"config/technocracy/creatures/bcommander.json"
+	],
+	
+	"heroClasses" :
+	[
+		"config/technocracy/classes/warlord.json",
+		"config/technocracy/classes/pyroma.json"
+	],
+
+	"heroes" :
+	[
+		"config/technocracy/heroes/A_daive.json",
+		"config/technocracy/heroes/B_richmond.json",
+		"config/technocracy/heroes/C_harrigan.json",
+		"config/technocracy/heroes/D_austin.json",
+		"config/technocracy/heroes/E_princehogg.json",
+		"config/technocracy/heroes/F_gestalt.json",
+		"config/technocracy/heroes/G_aaron.json",
+		"config/technocracy/heroes/H_craighill.json",
+		"config/technocracy/heroes/I_aidan.json",
+		"config/technocracy/heroes/J_barbara.json",
+		"config/technocracy/heroes/K_cynthia.json",
+		"config/technocracy/heroes/L_astride.json",
+		"config/technocracy/heroes/M_mildura.json",
+		"config/technocracy/heroes/N_renee.json",
+		"config/technocracy/heroes/O_melisa.json",
+		"config/technocracy/heroes/P_leslie.json"
+	],
+	 "objects":
+    [
+		"config/technocracy/dwellings.json"
+    ]
+}

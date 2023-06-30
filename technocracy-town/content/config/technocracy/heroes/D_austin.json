@@ -1,0 +1,87 @@
+{
+	"d_austin" :
+	{
+    "class": "warlord",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Austin",
+			"biography" : "Julian expected to tame the hippogryphs to be the powerful troops for Avlee, but Gelu, the king of elves, disagreed. He felt no longer be trusted by elves and he sweared to leave Avlee and return as conqueror. His hippogryphs prepare for revenge anytime.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Ballista or each level attained after 4th level.",
+				"tooltip" : "",
+				"name" : "Ballista"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/austin/skill32-4.bmp",
+			"specialtyLarge" : "technocracy/heroes/austin/skill4.bmp",
+			"large" : "technocracy/heroes/austin/HPL003DW.bmp",
+			"small" : "technocracy/heroes/austin/HPS003DW.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "defender",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "javeliner",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "brute",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "artillery"
+			}
+		],
+		
+		"specialty": //ballista
+		[
+			{
+				"growsWithLevel": true, //value is calculated at level-up
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["ballista", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["ballista", true]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
+

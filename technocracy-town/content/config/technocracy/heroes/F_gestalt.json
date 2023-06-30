@@ -1,0 +1,114 @@
+{
+	"f_gestalt" :
+	{
+    "class": "warlord",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Gestalt",
+			"biography" : "Although as a halfling, Kulkin is the foster son of Sharnah, the chief of Mountain Drawvers. The old chief hoped Kulkin to be the successor, but Mountain Drawves was perished by strange enemies before his succession. Kulkin had to leave the old territory and started for new life.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Brutes or Berserkers or each level attained after 3rd level.",
+				"tooltip" : "",
+				"name" : "Brutes"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/gestalt/skill32-6.bmp",
+			"specialtyLarge" : "technocracy/heroes/gestalt/skill6.bmp",
+			"large" : "technocracy/heroes/gestalt/HPL005DW.bmp",
+			"small" : "technocracy/heroes/gestalt/HPS005DW.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "defender",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "brute",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "brute",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty": //halflings//hobbit
+		[
+			{
+				"growsWithLevel": true, //value is calculated at level-up
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["brute", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["berserker", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["brute", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["berserker", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["brute", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["berserker", true]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
+

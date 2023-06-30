@@ -1,0 +1,114 @@
+{
+	"h_craighill" :
+	{
+    "class": "warlord",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Craig Hill",
+			"biography" : "Although as a halfling, Kulkin is the foster son of Sharnah, the chief of Mountain Drawvers. The old chief hoped Kulkin to be the successor, but Mountain Drawves was perished by strange enemies before his succession. Kulkin had to leave the old territory and started for new life.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Gladiators or Flame Gladiators or each level attained after 5th level.",
+				"tooltip" : "",
+				"name" : "Gladiators"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/craighill/skill32-8.bmp",
+			"specialtyLarge" : "technocracy/heroes/craighill/skill8.bmp",
+			"large" : "technocracy/heroes/craighill/HPL007DW.bmp",
+			"small" : "technocracy/heroes/craighill/HPS007DW.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "defender",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "javeliner",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "brute",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		
+		"specialty": //halflings//hobbit
+		[
+			{
+				"growsWithLevel": true, //value is calculated at level-up
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["gladiator", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["flameglad", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["gladiator", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["flameglad", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["gladiator", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["flameglad", true]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
+

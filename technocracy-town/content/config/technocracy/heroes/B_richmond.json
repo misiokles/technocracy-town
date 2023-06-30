@@ -1,0 +1,114 @@
+{
+	"b_richmond" :
+	{
+    "class": "warlord",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Richmond",
+			"biography" : "Julian expected to tame the hippogryphs to be the powerful troops for Avlee, but Gelu, the king of elves, disagreed. He felt no longer be trusted by elves and he sweared to leave Avlee and return as conqueror. His hippogryphs prepare for revenge anytime.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Snow Vultures or Blizzard Vultures or each level attained after 4th level.",
+				"tooltip" : "",
+				"name" : "Snow Vultures"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/richmond/skill32-2.bmp",
+			"specialtyLarge" : "technocracy/heroes/richmond/skill2.bmp",
+			"large" : "technocracy/heroes/richmond/HPL001DW.bmp",
+			"small" : "technocracy/heroes/richmond/HPS001DW.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "defender",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "javeliner",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "snowbird",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty": //hippogryph//upgraded one
+		[
+			{
+				"growsWithLevel": true, //value is calculated at level-up
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["snowbird", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["blizzardbird", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["snowbird", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["blizzardbird", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["snowbird", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["blizzardbird", true]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
+

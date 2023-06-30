@@ -1,0 +1,76 @@
+{
+	"g_aaron" :
+	{
+    "class": "warlord",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Aaron",
+			"biography" : "Julian expected to tame the hippogryphs to be the powerful troops for Avlee, but Gelu, the king of elves, disagreed. He felt no longer be trusted by elves and he sweared to leave Avlee and return as conqueror. His hippogryphs prepare for revenge anytime.",
+			"specialty" :
+			{
+				"description" : "Receives a 10% per level bonus to Learning skill percentage.",
+				"tooltip" : "",
+				"name" : "Learning"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/aaron/skill32-7.bmp",
+			"specialtyLarge" : "technocracy/heroes/aaron/skill7.bmp",
+			"large" : "technocracy/heroes/aaron/HPL006DW.bmp",
+			"small" : "technocracy/heroes/aaron/HPS006DW.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "defender",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "javeliner",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "brute",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "learning"
+			}
+		],
+		
+		"specialty": //ballista
+		[
+			{
+				"growsWithLevel" : true,
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SECONDARY_SKILL", //give 5% to this skill with each level
+						"subtype": "skill.learning",
+						"val": 10
+					},
+					{
+						"type": "SECONDARY_SKILL_PREMY", //used for first level
+						"subtype": "skill.learning",
+						"val": 10,
+						"valueType": "PERCENT_TO_BASE"
+					}
+				]
+			}
+		]
+	}
+}
+

@@ -1,0 +1,50 @@
+{
+  "defender": {
+    "name": {
+      "plural": "Defenders",
+      "singular": "Defender"
+    },
+    "advMapAmount": {
+      "max": 50,
+      "min": 20
+    },
+    "faction": "technocracy",
+    "aiValue": 75,
+    "attack": 2,
+    "cost": {
+      "gold": 40
+    },
+    "damage": {
+      "max": 3,
+      "min": 1
+    },
+    "defense": 5,
+    "fightValue": 60,
+    "graphics": {
+      "animation": "technocracy/battle/creatures/CFG1.def",
+      "map": "technocracy/map/creatures/AVWC150.def",
+      "iconSmall": "technocracy/iconsSmall/creatures/CPRS150B.bmp",
+      "iconLarge": "technocracy/iconsBig/creatures/CPRL150B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "growth": 14,
+    "hitPoints": 8,
+    "horde": 8,
+    "level": 1,
+    "upgrades": [ "mountainguard" ],
+    "sound": {
+      "attack": "technocracy/FG1ATTK.wav",
+      "defend": "technocracy/FG1DFND.wav",
+      "killed": "technocracy/FG1KILL.wav",
+      "move": "technocracy/FG1MOVE.wav",
+      "wince": "technocracy/FG1WNCE.wav"
+    },
+    "speed": 4
+  }
+  }

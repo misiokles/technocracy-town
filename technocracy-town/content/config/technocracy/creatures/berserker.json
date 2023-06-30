@@ -1,0 +1,69 @@
+{
+	"berserker":
+	{
+		"name" :
+		{
+			"plural" : "Berserkers",
+			"singular" : "Berserker"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+		"faction" : "technocracy",
+		"aiValue" : 247,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 4
+		},
+		"defense" : 6,
+		"fightValue" : 240,
+		"graphics" :
+		{
+			"animation" : "technocracy/battle/creatures/CFG3U.def",
+			"map" : "technocracy/map/creatures/AVWC155.def",
+			"iconSmall" : "technocracy/iconsSmall/creatures/CPrS155B.bmp",
+			"iconLarge" : "technocracy/iconsBig/creatures/CPrL155B.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+	       },
+    "growth": 7,
+    "horde": 4,
+		"hitPoints" : 25,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "technocracy/FG3UATTK.wav",
+			"defend": "technocracy/FG3UDFND.wav",
+			"killed": "technocracy/FG3UKILL.wav",
+			"move": "technocracy/FG3UMOVE.wav",
+			"wince": "technocracy/FG3UWNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+      "fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+      "extraAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		}
+	}
+}

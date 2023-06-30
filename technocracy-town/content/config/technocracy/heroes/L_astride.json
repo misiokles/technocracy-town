@@ -1,0 +1,76 @@
+{
+	"l_astride" :
+	{
+		"class" : "pyromancer",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Astride",
+			"biography" : "Anastasia used to be a high level druid in Avlee, she never participate in any battle for elves. However, she still be framed as a betrayer and was deported from Avlee. Until now, she still do not know what the justice is. ",
+			"specialty" :
+			{
+				"description" : "Casts Fire Ball with increased effect, based on hero level compared to the level of the target unit.",
+				"tooltip" : "?",
+				"name" : "Fire Ball"
+			}
+		},
+
+    "images": 		{
+			"specialtySmall" : "technocracy/heroes/astride/skill32-12.bmp",
+			"specialtyLarge" : "technocracy/heroes/astride/skill12.bmp",
+			"large" : "technocracy/heroes/astride/HPL003PY.bmp",
+			"small" : "technocracy/heroes/astride/HPS003PY.bmp"
+		},
+
+    "spellbook" :
+		[
+			"fireball" 
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "defender",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "javeliner",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "brute",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+      {
+        "level": "basic",
+        "skill": "fireMagic"
+      },
+      {
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty": //iceBolt
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SPELL_LEV",
+						"subtype": "spell.fireball",
+						"addInfo": 0 //normal, like most of hereos
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,69 @@
+{
+	"e_princehogg" :
+	{
+    "class": "warlord",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Prince Hogg",
+			"biography" : "Julian expected to tame the hippogryphs to be the powerful troops for Avlee, but Gelu, the king of elves, disagreed. He felt no longer be trusted by elves and he sweared to leave Avlee and return as conqueror. His hippogryphs prepare for revenge anytime.",
+			"specialty" :
+			{
+				"description" : "Increases kingdom's gold production by 350 per day.",
+				"tooltip" : "",
+				"name" : "+350 Gold"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/princehogg/skill32-5.bmp",
+			"specialtyLarge" : "technocracy/heroes/princehogg/skill5.bmp",
+			"large" : "technocracy/heroes/princehogg/HPL004DW.bmp",
+			"small" : "technocracy/heroes/princehogg/HPS004DW.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "defender",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "javeliner",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "brute",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "estates"
+			}
+		],
+		
+		"specialty": //estate bonus
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "GENERATE_RESOURCE",
+						"subtype": "resource.gold",
+						"val": 350
+					}
+				]
+			}
+		]
+	}
+}
+

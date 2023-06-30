@@ -1,0 +1,70 @@
+{
+	"fcommander":
+	{
+		"name" :
+		{
+			"plural" : "Fairy Commanders",
+			"singular" : "Fairy Commander"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 10
+		},
+		"faction" : "technocracy",
+		"aiValue" : 552,
+		"attack" : 11,
+		"cost" :
+		{
+			"gold" : 450
+		},
+		"damage" :
+		{
+			"max" : 15,
+			"min" : 10
+		},
+		"defense" : 13,
+		"fightValue" : 506,
+		"graphics" :
+		{
+			"animation" : "technocracy/battle/creatures/fcommander.def",
+			"map" : "technocracy/map/creatures/mapfcommander.def",
+			"iconSmall" : "technocracy/iconsSmall/creatures/fcommander.bmp",
+			"iconLarge" : "technocracy/iconsBig/creatures/fcommander.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"growth" : 4,
+		"hitPoints" : 40,
+		"level" : 4,
+		"sound" :
+		{
+			"attack": "PIXIATTK.wav",
+			"defend": "PIXIDFND.wav",
+			"killed": "PIXIKILL.wav",
+			"move": "PIXIMOVE.wav",
+			"wince": "PIXIWNCE.wav"
+ 		},
+		"speed" : 9,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+		    "spellAfterAttack" :
+			{
+                "type":"SPELL_AFTER_ATTACK",
+                "subtype":"spell.dispel",
+                "val":10,
+                "addInfo":3
+		    }
+	    }
+	}
+}

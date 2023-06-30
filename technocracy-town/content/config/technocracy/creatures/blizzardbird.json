@@ -1,0 +1,75 @@
+{
+	"blizzardbird":
+	{
+		"name" :
+		{
+			"plural" : "Blizzard Vultures",
+			"singular" : "Blizzard Vulture"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+		"faction" : "technocracy",
+		"aiValue" : 432,
+		"attack" : 11,
+		"cost" :
+		{
+			"gold" : 420
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"defense" : 9,
+		"fightValue" : 545,
+    "graphics": {
+      "animation": "technocracy/battle/creatures/CFG4U.def",
+      "map": "technocracy/map/creatures/AVWC157.def",
+      "iconSmall": "technocracy/iconsSmall/creatures/CPrS157B.bmp",
+      "iconLarge": "technocracy/iconsBig/creatures/CPrL157B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "doubleWide": true,
+		"growth" : 4,
+		"hitPoints" : 40,
+		"level" : 4,
+		"sound" :
+		{
+			"attack": "technocracy/FG4UATTK.wav",
+			"defend": "technocracy/FG4UDFND.wav",
+			"killed": "technocracy/FG4UKILL.wav",
+			"move": "technocracy/FG4UMOVE.wav",
+			"wince": "technocracy/FG4UWNCE.wav"
+		},
+		"speed" : 12,
+		"abilities" :
+		{
+      "canFly": 
+      {
+        "type": "FLYING"
+      },
+      "thunderStrength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.iceBolt",
+				"val" : 8
+			},
+			"thunderOnAttack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.iceBolt",
+				"val" : 20
+			}
+		}
+	}
+}
+

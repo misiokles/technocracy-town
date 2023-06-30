@@ -1,0 +1,92 @@
+{
+    "core:creatureGeneratorCommon" : {
+        "types" : {
+            "bastionLevel1" : {
+                "name" : "Dwarven Mines",
+                "creatures" : [[ "defender" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "technocracy/map/dwellings/dwelling-1",
+                        "mask" : ["VVV","VVV","VBA" ]
+                    }
+                }
+            },
+            "bastionLevel2" : {
+                "name" : "Hunter Camp",
+                "creatures" : [[ "javeliner" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "technocracy/map/dwellings/dwelling-2",
+                        "mask" : [ "VVV","VBB", "VAB" ]
+                    }
+                }
+            },
+            "bastionLevel3" : {
+                "name" : "Longhouse",
+                "creatures" : [[ "brute" ]],
+
+                "templates" : {
+                    "default" : {   
+                        "animation" : "technocracy/map/dwellings/dwelling-3",
+                        "mask" : ["VVV","VBB","VBA" ]
+                    }
+                }
+            },
+            "bastionLevel4" : {
+                "name" : "Iceberg Nest",
+                "creatures" : [[ "snowbird" ]],
+                "guards" : [
+                    { "amount" : 12, "type" : "snowbird" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "technocracy/map/dwellings/dwelling-4",
+                        "mask" : ["VVV","BBB","BAB" ]
+                    }
+                }
+            },
+            "bastionLevel5" : {
+                "name" : "Battle Fortress",
+                "creatures" : [[ "gladiator" ]],
+                "guards" : [
+                    { "amount" : 9, "type" : "gladiator" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "technocracy/map/dwellings/dwelling-5",
+                        "mask" : [ "VVV","VBB","VBA"                        ]
+                    }
+                }
+            },
+            "bastionLevel6" : {
+                "name" : "Frozen Cavern",
+                "creatures" : [[ "mammoth" ]],
+                "guards" : [
+                    { "amount" : 6, "type" : "mammoth" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "technocracy/map/dwellings/dwelling-6",
+                        "mask" : ["VVV","BBB","BBA" ]
+                    }
+                }
+            },
+            "bastionLevel7" : {
+                "name" : "Volcanic Vent",
+                "creatures" : [[ "bsfafnir" ]],
+                "guards" : [
+                    { "amount" : 3, "type" : "bsfafnir" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "technocracy/map/dwellings/dwelling-7",
+                        "mask" : ["VVVV","VBBB","VBAB" ]
+                    }
+                }
+            }
+
+        }       
+    }
+} 

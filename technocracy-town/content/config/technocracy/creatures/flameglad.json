@@ -1,0 +1,58 @@
+{
+  "flameglad": {
+    "name": {
+      "plural": "Flame Gladiators",
+      "singular": "Flame Gladiator"
+    },
+    "advMapAmount": {
+      "max": 12,
+      "min": 10
+    },
+    "faction": "technocracy",
+    "aiValue": 905,
+    "attack": 14,
+    "cost": {
+      "gold": 700
+    },
+    "damage": {
+      "max": 14,
+      "min": 12
+    },
+    "defense": 14,
+    "fightValue": 792,
+    "graphics": {
+      "animation": "technocracy/battle/creatures/CFG5U.def",
+      "map": "technocracy/map/creatures/AVWC159.def",
+      "iconSmall": "technocracy/iconsSmall/creatures/CPrS159B.bmp",
+      "iconLarge": "technocracy/iconsBig/creatures/CPrL159B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.25,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "growth": 3,
+    "hitPoints": 60,
+    "level": 5,
+    "sound": {
+      "attack": "technocracy/FG5UATTK.wav",
+      "defend": "technocracy/FG5UDFND.wav",
+      "killed": "technocracy/FG5UKILL.wav",
+      "move": "technocracy/FG5UMOVE.wav",
+      "wince": "technocracy/FG5UWNCE.wav"
+    },
+    "speed": 7,
+    "abilities": {
+			"threeHeads" : 
+			{
+				"type" : "THREE_HEADED_ATTACK"
+			},
+			"noRetaliation" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+    }
+  }
+}

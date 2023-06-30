@@ -1,0 +1,56 @@
+{
+  "snowbird": {
+    "name": {
+      "plural": "Snow Vultures",
+      "singular": "Snow Vulture"
+    },
+    "advMapAmount": {
+      "max": 20,
+      "min": 10
+    },
+    "faction": "technocracy",
+    "aiValue": 420,
+    "attack": 10,
+    "cost": {
+      "gold": 350
+    },
+    "damage": {
+      "max": 10,
+      "min": 6
+    },
+    "defense": 8,
+    "fightValue": 530,
+    "graphics": {
+      "animation": "technocracy/battle/creatures/CFG4.def",
+      "map": "technocracy/map/creatures/AVWC156.def",
+      "iconSmall": "technocracy/iconsSmall/creatures/CPrS156B.bmp",
+      "iconLarge": "technocracy/iconsBig/creatures/CPrL156B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "doubleWide": true,
+    "growth": 4,
+    "hitPoints": 30,
+    "level": 4,
+    "upgrades": [ "blizzardbird" ],
+    "sound": {
+      "attack": "technocracy/FG4ATTK.wav",
+      "defend": "technocracy/FG4DFND.wav",
+      "killed": "technocracy/FG4KILL.wav",
+      "move": "technocracy/FG4MOVE.wav",
+      "wince": "technocracy/FG4WNCE.wav"
+    },
+    "speed": 9,
+    "abilities":
+     {
+      "canFly": {
+        "type": "FLYING"
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+	"n_renee" :
+	{
+		"class" : "pyromancer",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Renee",
+			"biography" : "Anastasia used to be a high level druid in Avlee, she never participate in any battle for elves. However, she still be framed as a betrayer and was deported from Avlee. Until now, she still do not know what the justice is. ",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Mysticism skill percentage.",
+				"tooltip" : "?",
+				"name" : "Mysticism"
+			}
+		},
+
+    "images": 		{
+			"specialtySmall" : "technocracy/heroes/renee/skill32-14.bmp",
+			"specialtyLarge" : "technocracy/heroes/renee/skill14.bmp",
+			"large" : "technocracy/heroes/renee/HPL005PY.bmp",
+			"small" : "technocracy/heroes/renee/HPS005PY.bmp"
+		},
+
+    "spellbook" :
+		[
+			"visions" 
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "defender",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "javeliner",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "brute",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+      {
+        "level": "basic",
+        "skill": "fireMagic"
+      },
+      {
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+		
+		"specialty": //Druids
+		[
+			{
+				"growsWithLevel" : true,
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SECONDARY_SKILL", //give 5% to this skill with each level
+						"subtype": "skill.mysticism",
+						"val": 5
+					},
+					{
+						"type": "SECONDARY_SKILL_PREMY", //used for first level
+						"subtype": "skill.mysticism",
+						"val": 5,
+						"valueType": "PERCENT_TO_BASE"
+					}
+				]
+			}
+		]
+	}
+}

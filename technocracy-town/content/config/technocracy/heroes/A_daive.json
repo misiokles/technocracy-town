@@ -1,0 +1,114 @@
+{
+	"a_daive" :
+	{
+    "class": "warlord",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Daive",
+			"biography" : "Although as a halfling, Kulkin is the foster son of Sharnah, the chief of Mountain Drawvers. The old chief hoped Kulkin to be the successor, but Mountain Drawves was perished by strange enemies before his succession. Kulkin had to leave the old territory and started for new life.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Defenders or Mountain Guards or each level attained after 1st level.",
+				"tooltip" : "",
+				"name" : "Defenders"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/daive/skill32-1.bmp",
+			"specialtyLarge" : "technocracy/heroes/daive/skill1.bmp",
+			"large" : "technocracy/heroes/daive/HPL000DW.bmp",
+			"small" : "technocracy/heroes/daive/HPS000DW.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "defender",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "defender",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "defender",
+				"max" : 20,
+				"min" : 10
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		
+		"specialty": //halflings//hobbit
+		[
+			{
+				"growsWithLevel": true, //value is calculated at level-up
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["defender", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["mountainguard", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["defender", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["mountainguard", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["defender", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["mountainguard", true]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
+

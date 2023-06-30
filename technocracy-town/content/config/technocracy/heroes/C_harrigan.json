@@ -1,0 +1,114 @@
+{
+	"c_harrigan" :
+	{
+    "class": "warlord",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Harrigan",
+			"biography" : "Julian expected to tame the hippogryphs to be the powerful troops for Avlee, but Gelu, the king of elves, disagreed. He felt no longer be trusted by elves and he sweared to leave Avlee and return as conqueror. His hippogryphs prepare for revenge anytime.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of Javeliners or Harpooners or each level attained after 2nd level.",
+				"tooltip" : "",
+				"name" : "Javeliner"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/harrigan/skill32-3.bmp",
+			"specialtyLarge" : "technocracy/heroes/harrigan/skill3.bmp",
+			"large" : "technocracy/heroes/harrigan/HPL002DW.bmp",
+			"small" : "technocracy/heroes/harrigan/HPS002DW.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "defender",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "javeliner",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "javeliner",
+				"max" : 8,
+				"min" : 5
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+		
+		"specialty": //hippogryph//upgraded one
+		[
+			{
+				"growsWithLevel": true, //value is calculated at level-up
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["javeliner", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["harpooner", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["javeliner", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["harpooner", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["javeliner", true]
+							},
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["harpooner", true]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
+

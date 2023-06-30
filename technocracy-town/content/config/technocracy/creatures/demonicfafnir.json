@@ -1,0 +1,74 @@
+{
+  "demonicfafnir": {
+    "name": {
+      "plural": "Demonic Fafnirs",
+      "singular": "Demonic Fafnir"
+    },
+    "advMapAmount": {
+      "max": 8,
+      "min": 3
+    },
+    "faction": "technocracy",
+    "aiValue": 7168,
+    "attack": 26,
+    "cost": {
+      "gold": 4000,
+      "mercury": 2
+    },
+    "damage": {
+      "max": 50,
+      "min": 40
+    },
+    "defense": 26,
+    "fightValue": 5571,
+    "graphics": {
+      "animation": "technocracy/battle/creatures/CFG7U.def",
+      "map": "technocracy/map/creatures/AVWC163.def",
+      "iconSmall": "technocracy/iconsSmall/creatures/CPrS163B.bmp",
+      "iconLarge": "technocracy/iconsBig/creatures/CPrL163B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.5,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1.5
+      }
+    },
+    "doubleWide": true,
+    "growth": 1,
+    "hitPoints": 275,
+    "level": 7,
+    "sound": {
+      "attack": "technocracy/FG7ATTK.wav",
+      "defend": "technocracy/FG7DFND.wav",
+      "killed": "technocracy/FG7KILL.wav",
+      "move": "technocracy/FG7MOVE.wav",
+      "wince": "technocracy/FG7WNCE.wav"
+    },
+    "speed": 14,
+    "abilities": 
+    {
+      "canFly": 
+      {
+        "type": "FLYING"
+      },
+      "dragon" : 
+			{
+				"type" : "DRAGON_NATURE"
+			},
+      "fireBreath": {
+        "type": "TWO_HEX_ATTACK_BREATH"
+      },
+      "immuneToFire" :
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 3
+			}
+      }
+    }
+  }

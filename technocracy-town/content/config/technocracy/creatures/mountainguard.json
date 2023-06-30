@@ -1,0 +1,49 @@
+{
+  "mountainguard": {
+    "name": {
+      "plural": "Mountain Guards",
+      "singular": "Mountain Guard"
+    },
+    "advMapAmount": {
+      "max": 30,
+      "min": 20
+    },
+    "faction": "technocracy",
+    "aiValue": 78,
+    "attack": 4,
+    "cost": {
+      "gold": 65
+    },
+    "damage": {
+      "max": 3,
+      "min": 1
+    },
+    "defense": 7,
+    "fightValue": 62,
+    "graphics": {
+      "animation": "technocracy/battle/creatures/CFG1U.def",
+      "map": "technocracy/map/creatures/AVWC151.def",
+      "iconSmall": "technocracy/iconsSmall/creatures/CPrS151B.bmp",
+      "iconLarge": "technocracy/iconsBig/creatures/CPrL151B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "growth": 14,
+    "hitPoints": 10,
+    "horde": 8,
+    "level": 1,
+    "sound": {
+      "attack": "technocracy/FG1UATTK.wav",
+      "defend": "technocracy/FG1UDFND.wav",
+      "killed": "technocracy/FG1UKILL.wav",
+      "move": "technocracy/FG1UMOVE.wav",
+      "wince": "technocracy/FG1UWNCE.wav"
+    },
+    "speed": 5
+  }
+  }

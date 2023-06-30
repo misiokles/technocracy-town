@@ -1,0 +1,72 @@
+{
+	"o_melisa" :
+	{
+		"class" : "pyromancer",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Melisa",
+			"biography" : "Anastasia used to be a high level druid in Avlee, she never participate in any battle for elves. However, she still be framed as a betrayer and was deported from Avlee. Until now, she still do not know what the justice is. ",
+			"specialty" :
+			{
+				"description" : "Casts Fire Shield with increased effect, based on hero level compared to the level of the target unit.",
+				"tooltip" : "?",
+				"name" : "Fire Shield"
+			}
+		},
+
+    "images": 		{
+			"specialtySmall" : "technocracy/heroes/melisa/skill32-15.bmp",
+			"specialtyLarge" : "technocracy/heroes/melisa/skill15.bmp",
+			"large" : "technocracy/heroes/melisa/HPL006PY.bmp",
+			"small" : "technocracy/heroes/melisa/HPS006PY.bmp"
+		},
+
+    "spellbook" :
+		[
+			"fireShield" 
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "defender",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "javeliner",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "brute",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+      {
+        "level": "advanced",
+        "skill": "fireMagic"
+      }
+		],
+		
+		"specialty": //iceBolt
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SPELL_LEV",
+						"subtype": "spell.fireShield",
+						"addInfo": 0 //normal, like most of hereos
+					}
+				]
+			}
+		]
+	}
+}
