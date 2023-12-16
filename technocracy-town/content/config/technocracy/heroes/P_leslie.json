@@ -58,26 +58,7 @@
         "skill": "logistics"
       }
 		],
-		
-		"specialty": //Druids
-		[
-			{
-				"growsWithLevel" : true,
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SECONDARY_SKILL", //give 5% to this skill with each level
-						"subtype": "skill.logistics",
-						"val": 5
-					},
-					{
-						"type": "SECONDARY_SKILL_PREMY", //used for first level
-						"subtype": "skill.logistics",
-						"val": 5,
-						"valueType": "PERCENT_TO_BASE"
-					}
-				]
-			}
-		]
+		"specialty": {
+		}
 	}
 }

@@ -26,16 +26,15 @@
 		"defense" : 5,
 		"fightValue" : 146,
     "graphics": {
-      "animation": "bastille/battle/creatures/CFG2.def",
-      "map": "bastille/map/creatures/AVWC152.def",
-      "iconSmall": "bastille/iconsSmall/creatures/CPrS152B.bmp",
-      "iconLarge": "bastille/iconsBig/creatures/CPrL152B.bmp",
+      "animation": "technocracy/battle/creatures/CFG2.def",
+      "map": "technocracy/map/creatures/AVWC152.def",
+      "iconSmall": "technocracy/iconsSmall/creatures/CPrS152B.bmp",
+      "iconLarge": "technocracy/iconsBig/creatures/CPrL152B.bmp",
       "timeBetweenFidgets": 1,
       "animationTime": {
         "walk": 1.25,
         "attack": 1,
-        "idle": 10,
-        "flight": 1
+        "idle": 10
       },
       "missile" :
 			{
@@ -60,12 +59,12 @@
     "shots": 4,
 		"sound" :
 		{
-			"attack": "bastille/FG2ATTK.wav",
-			"defend": "bastille/FG2DFND.wav",
-                        "killed": "bastille/FG2KILL.wav",
-                        "shoot" : "bastille/FG2SHOT.wav",
-			"move" :  "bastille/FG2MOVE.wav",
-			"wince": "bastille/FG2WNCE.wav"
+			"attack": "technocracy/FG2ATTK.wav",
+			"defend": "technocracy/FG2DFND.wav",
+                        "killed": "technocracy/FG2KILL.wav",
+                        "shoot" : "technocracy/FG2SHOT.wav",
+			"move" :  "technocracy/FG2MOVE.wav",
+			"wince": "technocracy/FG2WNCE.wav"
 		},
     "speed": 5,
     "abilities" :

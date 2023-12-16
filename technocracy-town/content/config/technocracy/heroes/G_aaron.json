@@ -51,26 +51,8 @@
 			}
 		],
 		
-		"specialty": //ballista
-		[
-			{
-				"growsWithLevel" : true,
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SECONDARY_SKILL", //give 5% to this skill with each level
-						"subtype": "skill.learning",
-						"val": 10
-					},
-					{
-						"type": "SECONDARY_SKILL_PREMY", //used for first level
-						"subtype": "skill.learning",
-						"val": 10,
-						"valueType": "PERCENT_TO_BASE"
-					}
-				]
-			}
-		]
+		"specialty": {
+		}
 	}
 }
 

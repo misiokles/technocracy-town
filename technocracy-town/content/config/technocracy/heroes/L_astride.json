@@ -59,18 +59,7 @@
 			}
 		],
 		
-		"specialty": //iceBolt
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SPELL_LEV",
-						"subtype": "spell.fireball",
-						"addInfo": 0 //normal, like most of hereos
-					}
-				]
-			}
-		]
+		"specialty": {
+		}
 	}
 }

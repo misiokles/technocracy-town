@@ -59,18 +59,7 @@
 			}
 		],
 		
-		"specialty": //estate bonus
-		[
-			{
-				"bonuses":
-				[
-					{
-            "type": "GENERATE_RESOURCE",
-						"subtype": "resource.crystal",
-						"val": 1
-					}
-				]
-			}
-		]
+		"specialty": {
+		}
 	}
 }

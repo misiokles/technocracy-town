@@ -3,9 +3,17 @@
 	"description" : "New town made by Turbanellos, The Forgotten Fields",
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "0,1",
+	"version" : "0.11",
 	"modType" : "Town",	
-	
+	"compatibility" :
+	{
+		"min" : "1.4"
+	},
+	"changelog" :
+	{
+		"0.11"   : [ "Update to vcmi-1.4 format" ],
+		"0.10"   : [ "Initial release" ]
+	},	
     "factions" : [ "config/technocracy/town" ],
 	
 	"creatures" :

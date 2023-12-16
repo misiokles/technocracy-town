@@ -4,6 +4,7 @@
 		"creatureBackground" : { "120px" : "technocracy/creature-bg-120px.bmp", "130px" : "technocracy/creature-bg-130px.bmp" },
 		"name" : "Technocracy",
 		"nativeTerrain" : "lava",
+		"boat" : "boatCastle",
 		"puzzleMap" : {
 			"prefix" : "technocracy/puzzle-map/",
 			"pieces" :
@@ -1048,7 +1049,7 @@
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground" : "technocracy/town-screen/TPFGBACK.bmp",
 		"warMachine" : "ballista",
-		"moatDamage" : 90,
+		"moatAbility" : "castleMoat",
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],
