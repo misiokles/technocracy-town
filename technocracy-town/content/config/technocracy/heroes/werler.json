@@ -1,0 +1,58 @@
+{
+	"werler" :
+	{
+		"class" : "techpriest",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "麦罗格拉",
+			"biography" : "麦罗格拉是非常聪明的人。这个聪明而且贪婪的电子人知道如何在短时间内挣得更多的钱。",
+			"specialty" :
+			{
+				"description" : "为王国每天额外提供350个金币。",
+				"tooltip" : "每天+350个金币",
+				"name" : "+350个金币"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "technocracy/heroes/werler/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/werler/spec-large.png",
+			"large" : "technocracy/heroes/werler/portrait-large.png",
+			"small" : "technocracy/heroes/werler/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"counterstrike"
+		],
+		"army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv2",    "min" : 5, "max" : 7 },
+			{ "creature" : "thlv3",         "min" : 2, "max" : 3}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}

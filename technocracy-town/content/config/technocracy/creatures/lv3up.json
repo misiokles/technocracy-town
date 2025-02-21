@@ -1,0 +1,115 @@
+{
+	"thlv3up":
+	{
+		"name" :
+		{
+			"plural" : "改造人",
+			"singular" : "改造人"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 12
+		},
+		"faction" : "technocracy",
+		"aiValue" : 365,
+		"attack" : 8,
+		"hasDoubleWeek": true,
+        "cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			 "max" : 9,
+			 "min" : 3
+		},
+		"defense" : 7,
+		"fightValue" : 377,
+		"graphics" :
+		{
+			"animation" : "technocracy/battle/lv3up.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "technocracy/map/lv3upmap.def",
+			"iconSmall" : "technocracy/iconsSmall/lv3ups.bmp",
+			"iconLarge" : "technocracy/iconsBig/lv3upb.bmp",
+			"timeBetweenFidgets" : 10
+		},
+	
+		"growth" : 6,
+		"hitPoints" : 25,
+		"level" : 3,
+		"sound" :
+		{
+			"attack" : "technocracy/CYBATTACK.wav",
+			"defend" : "technocracy/CYBDEFEND.wav",
+			"killed" : "technocracy/CYBDIE.wav",
+			"move" : "technocracy/CYBMOVE.wav",
+			"wince" : "technocracy/CYBWINCE.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+            "non living" :
+			{
+				"type" : "NON_LIVING"
+			},    
+			"noMorale"	:
+			{
+				"type" : "NO_MORALE"
+			},
+			"disease"	:
+			{
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 50,
+				"addInfo" : 1
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+	}
+}

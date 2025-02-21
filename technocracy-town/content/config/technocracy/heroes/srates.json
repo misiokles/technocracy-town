@@ -1,0 +1,58 @@
+{
+	"srates" : 
+	{
+		"class" : "techpriest",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "达利斯",
+			"biography" : "达利斯是具有新基因的机器人。他也和其他电子人一样被高级科技控制，他充满高级力量的身体让他的施法易如反掌。",
+			"specialty" : 
+			{
+				"description" : "在智力技能上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：智力",
+				"name" : "智力"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/srates/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/srates/spec-large.png",
+			"large" : "technocracy/heroes/srates/portrait-large.png",
+			"small" : "technocracy/heroes/srates/portrait-small.png"
+		},
+		"spellbook" :
+		[
+			"disruptingRay"		
+                ],
+                "army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv2",    "min" : 5, "max" : 7 },
+			{ "creature" : "thlv3",         "min" : 2, "max" : 3}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"intelligence" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

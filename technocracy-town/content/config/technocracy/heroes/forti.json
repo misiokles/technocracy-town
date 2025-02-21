@@ -1,0 +1,54 @@
+{
+	"forti" :
+	{
+		"class" : "techknight",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "玛纳斯",
+			"biography" : "玛纳斯从制造初期就有着极强的机动性。这个机械人的速度和耐久力，对地形的适应性，都是别的机械人无法比拟的。",
+			"specialty" :
+			{
+				"description" : "在后勤学上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：后勤学",
+				"name" : "后勤学"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/forti/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/forti/spec-large.png",
+			"large" : "technocracy/heroes/forti/portrait-large.png",
+			"small" : "technocracy/heroes/forti/portrait-small.png"
+		},
+        "army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv2", "min" : 4, "max" : 7 },
+			{ "creature" : "thlv2", "min" : 2, "max" : 3}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"ronet" : 
+	{
+		"class" : "techpriest",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "布拉德",
+			"biography" : "布拉德曾经是个杀手领导者。当他度假之时被一种可怕的血浆射中脸部感染，现在他不再像是一个人类了。", 
+			"specialty" :
+			{
+				"description" : "使用虚弱无力魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：虚弱无力",
+				"name" : "虚弱无力"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "technocracy/heroes/ronet/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/ronet/spec-large.png",
+			"large" : "technocracy/heroes/ronet/portrait-large.png",
+			"small" : "technocracy/heroes/ronet/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"weakness"
+		],
+		"army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv2",    "min" : 4, "max" : 7 },
+			{ "creature" : "thlv3",         "min" : 2, "max" : 3}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

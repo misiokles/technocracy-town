@@ -1,0 +1,48 @@
+{
+	"anakis" : 
+	{
+		"class" : "techknight",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "苏利",
+			"biography" : "在铸造族重建之后，苏利终于证明了自己对电子人的掌控能力，这也是让他成为主要将领的理由。",
+			"specialty" : 
+			{
+				"description" : "达到6级以后提高磁电子人或核电子人的攻击力与防御力。",
+				"tooltip" : "生物强化：磁电子人",
+				"name" : "磁电子人"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/anakis/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/anakis/spec-large.png",
+			"large" : "technocracy/heroes/anakis/portrait-large.png",
+			"small" : "technocracy/heroes/anakis/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv2",    "min" : 5, "max" : 7 },
+			{ "creature" : "thlv3",         "min" : 2, "max" : 3}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			}
+		],
+		"specialty" : 
+		{
+			"creature" : "thlv6"
+		}
+	}
+}
+
+

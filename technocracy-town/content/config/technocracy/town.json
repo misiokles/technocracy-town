@@ -1,10 +1,10 @@
 {
 	"technocracy" : {
 		"alignment" : "neutral",
+		"boat" : "boatNecropolis",
 		"creatureBackground" : { "120px" : "technocracy/creature-bg-120px.bmp", "130px" : "technocracy/creature-bg-130px.bmp" },
-		"name" : "Technocracy",
+		"name" : "机械",
 		"nativeTerrain" : "lava",
-		"boat" : "boatCastle",
 		"puzzleMap" : {
 			"prefix" : "technocracy/puzzle-map/",
 			"pieces" :
@@ -65,8 +65,8 @@
 				"mageGuild1" :
 				{
 					
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1",
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "1级魔法行会",
 					"cost" :
 					{
 						"wood" : 5,
@@ -78,8 +78,8 @@
 				"mageGuild2" :
 				{
 					
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2",
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "2级魔法行会",
 					"cost" :
 					{
 						"wood" : 5,
@@ -95,8 +95,8 @@
 				},
 				"mageGuild3" :
 				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3",
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "3级魔法行会",
 					"cost" :
 					{
 						"wood" : 5,
@@ -112,8 +112,8 @@
 				},
 								"mageGuild4" :
 				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 4",
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "4级魔法行会",
 					"cost" :
 					{
 						"wood": 5,
@@ -129,8 +129,8 @@
 				},
 				"mageGuild5" :
 				{
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 5",
+					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"name" : "5级魔法行会",
 					"cost" :
 					{
 						"wood": 5,
@@ -146,8 +146,8 @@
 				},
 				"tavern" :
 				{
-					"name" : "Tavern",
-					"description" : "The Tavern increases morale for troops defending the city.",
+					"name" : "酒馆",
+					"description" : "酒馆可提高驻军的士气。",
 					"cost" :
 					{
 						"wood" : 5,
@@ -157,8 +157,8 @@
 				},
 				"shipyard" :
 				{
-					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships.",
+					"name" : "船坞",
+					"description" : "船坞允许你购买船只。",
 					"cost" :
 					{
 						"wood" : 20,
@@ -168,8 +168,8 @@
 				},
 				"fort" :
 				{
-					"name" : "Fort",
-					"description" : "The Fort provides your town with defensive walls.",
+					"name" : "堡垒",
+					"description" : "堡垒可为你的城镇提供城墙。",
 					"cost" :
 					{
 						"wood" : 20,
@@ -180,8 +180,8 @@
 				},
 				"citadel" :
 				{
-					"name" : "Citadel",
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"name" : "大本营",
+					"description" : "大本营不仅使生物的基本生长率提高50%，还能加强城镇的防御设施。",
 					"cost" :
 					{
 						"ore" : 5,
@@ -192,8 +192,8 @@
 				},
 				"castle" :
 				{
-					"name" : "Castle",
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"name" : "城堡",
+					"description" : "城堡可提供2座副箭塔以加强城镇的防御，而且还使生物的基本生长率加倍。",
 					"cost" :
 					{
 						"wood" : 10,
@@ -205,15 +205,15 @@
 				},
 				"villageHall" :
 				{
-					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"name" : "议事堂",
+					"description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。",
 					"id" : 10,
 					"mode" : "auto"
 				},
 				"townHall" :
 				{
-					"name" : "Town Hall",
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"name" : "内政厅",
+					"description" : "内政厅可以让你购买城镇建筑，并每天向你提供1000个金币。",
 					"cost" :
 					{
 						"gold" : 2500
@@ -224,8 +224,8 @@
 				},
 				"cityHall" :
 				{
-					"name" : "City Hall",
-					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"name" : "议会",
+					"description" : "议会可以让你购买城镇建筑并每天向你提供2000个金币。",
 					"cost" :
 					{
 						"gold" : 5000
@@ -236,8 +236,8 @@
 				},
 				"capitol" :
 				{
-					"name" : "Capitol",
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"name" : "国会",
+					"description" : "国会每天向你提供4000个金币。",
 					"cost" :
 					{
 						"gold" : 10000
@@ -248,8 +248,8 @@
 				},
 				"marketplace" :
 				{
-					"name" : "Marketplace",
-			                "description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"name" : "市场",
+			        "description" : "市场可让你交换资源(你所拥有的市场越多，价格越便宜)。",
 					"cost" :
 					{
 						"wood" : 5,
@@ -259,43 +259,45 @@
 				},
 				"resourceSilo" :
 				{
-					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
-					"name" : "Resource Silo",
+					"description" : "物资仓库每天为你额外提供1水银。",
+					"name" : "物资仓库",
 					"cost" :
 					{
 						"ore" : 5,
 						"gold" : 5000
 					},
+					"produce": { "mercury": 1 },
 					"requires" : [ "marketplace" ],
 					"id" : 15
 				},
 				"blacksmith" :
 				{
-					"description" : "The Blacksmith provides your armies with Ammo Cart.",
-					"name" : "Blacksmith",
+					"description" : "铁匠铺可向你的军队提供弩车。",
+					"name" : "铁匠铺",
 					"cost" :
 					{
 						"wood" : 5,
 						"gold" : 1000
 					},
+					"warMachine" : "ballista",
 					"id" : 16
 				},
 				"horde1" :
 				{
-					"description" : "The Miner Hut will increase Defender production by 8 per week.",
-					"name" : "Miner Hut",
+					"description" : "督军营房使新兵和兵长的周产量+10。",
+					"name" : "督军营房",
 					"cost" : 
 					{
 						"gold" : 1000
 					},
 					"id" : 18,
 					"upgrades" : "dwellingLvl1",
-					"requires" : [ "allOf", ["fort"], ["dwellingUpLvl1"] ]
+					"requires" : [ "allOf", ["fort"], ["dwellingLvl1"] ]
 				},
 				"horde1Upgr" :
 				{
-					"description" : "The Miner Hut will increase Mountain Guard production by 8 per week.",
-					"name" : "Miner Hut",
+					"description" : "督军营房使新兵和兵长的周产量+10。",
+					"name" : "督军营房",
 					"cost" : 
 					{
 						"gold" : 1000
@@ -307,250 +309,263 @@
 				},
 				"ship" :
 				{
-					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships.",
+					"name" : "船只",
+					"description" : "船员们正在等待起航。",
 
 					"id" : 20
 				},
 				"special1" : 
 				{
-					"description" : "The Observation Deck can increase the scouting radius by 2 for each visiting hero once a week.",
-					"name" : "Observation Deck",
+					"description" : "间谍卫星可扩大城镇周围的可视范围。",
+					"name" : "间谍卫星",
+					"height" : "average",
 					"cost" : 
 					{
 						"crystal" : 5,
-                                              "gold" : 1000
+                         "gold" : 1000
 					},
-					"requires" : [ "allOf", ["fort"], ["mageGuild1"] ],
+			        "requires" : [ "allOf", ["fort"], ["mageGuild1"] ],
 					"id" : 21
 				},
-                                "special2":
-                                {
-                                       "description": "The Temple of Royality can give +1 defence for visiting heroes.",
-                                       "name": "Temple of Royality",
-                                       "cost":
-                                       {
-                                              "gold": 1000
-                                       },
-                                       "id": 17
-                                },
-                              "special3":
-                                {
-                                      "description": "The Altar of Sacrifice allows heroes sacrifice artifacts or creatures for experience, which depends on the faction of current hero.",
-                                      "name": "Altar of Sacrifice",
-                                      "cost":
-                                      {
-                                               "wood": 15,
-                                               "ore": 15,
-                                               "gold": 5000
-                                       },
-                                      "id": 22
+                "special2":
+                {
+                    "description": "在科技魔法学院里，你可以花钱学习四种派系的魔法。",
+                     "name": "科技魔法学院",
+                     "marketModes" : ["resource-skill"],
+                     "cost":
+                     {
+                         "wood" : 10,
+						"ore" : 10,
+						"gold": 5000
+                     },
+			        "requires" : [ "allOf", ["fort"], ["mageGuild1"] ],
+                     "id": 17
+                },
+                "special3":
+                {
+                   "description": "钻井平台每天为你额外提供1硫磺。",
+                    "name": "钻井平台",
+                    "cost":
+                    {
+                        "wood": 5,
+                        "ore": 5,
+                        "gold": 5000
+                    },
+				       "produce":
+				    {
+			           "sulfur":1
+				},
+                       "id": 22
        
 				},
 				"grail" :
 				{
-					"description" : "The presence of the World Tree Branch increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, and also increase speed of every bastion creatures by +1.",
-					"name" : "World Tree Branch",
+					"description" : "堕落工厂使每周的生物产量提高50%，每天为你的王国额外提供5000个金币，并且使所有同族生物的速度+1。",
+					"name" : "堕落工厂",
 					"id" : 26,
-					"mode" : "grail"
+					"mode" : "grail",
+					"produce": { "gold": 5000 },
+					"bonuses": [
+						{ "type": "STACKS_SPEED", "val": 1, "propagator": "PLAYER_PROPAGATOR" } 						
+					]
 				},
 				"dwellingLvl1" :
 				{
-					"description" : "The Dwarven Mines allows you to recruit Defenders.",
-					"name" : "Dwarven Mines",
+					"description" : "佣兵基地允许你招募新兵。",
+					"name" : "佣兵基地",
 					"cost" : 
 					{
-						"gold" : 500,
-						"ore" : 10
+						"gold" : 1000,
+						"ore" : 5,
+						"wood" : 5
 					},
 					"requires" : [ "fort" ],
 					"id" : 30
 				},
 				"dwellingLvl2" :
 				{
-					"description" : "The Hunter Camp allows you to recruit Javeliners.",
-					"name" : "Hunter Camp",
+					"description" : "火枪铸造厂允许你招募劳工。",
+					"name" : "火枪铸造厂",
 					"cost" : 
 					{
-						"gold" : 1000,
+						"gold" : 1500,
 						"ore" : 5
 					},
-					"requires" : [ "fort" ],
+					"requires" : ["allOf", ["fort"], ["blacksmith"] ],
 					"id" : 31
 				},
 				"dwellingLvl3" :
 				{
-					"description" : "The Longhouse allows you to recruit Brutes.",
-					"name" : "Longhouse",
+					"description" : "车间允许你招募生化人。",
+					"name" : "车间",
 					"cost" : 
 					{
 						"gold" : 1500,
-						"wood" : 5,
-						"ore" : 10
+						"ore" : 5
 					},
 					"requires" : ["allOf", ["blacksmith"], ["dwellingLvl1"] ],
 					"id" : 32
 				},
 				"dwellingLvl4" :
 				{
-					"description" : "The Iceberg Nest allows you to recruit Snow Vultures.",
-					"name" : "Iceberg Nest",
+					"description" : "技师塔允许你招募技师。",
+					"name" : "技师塔",
 					"cost" : 
 					{
                                                "gold": 2000,
-						"wood" : 10
+						"ore" : 10
 					},
-					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl2"] ],
+					"requires" : [ "dwellingLvl3" ],
 					"id" : 33
 				},
 				"dwellingLvl5" :
 				{
-					"description" : "The Battle Fortress allows you to recruit Gladiators.",
-					"name" : "Battle Fortress",
+					"description" : "基因改造所允许你招募机械魔女。",
+					"name" : "基因改造所",
 					"cost" : 
 					{
-						"gold" : 3000,
-						"ore" : 20
+						"gold" : 4000,
+						"ore" : 5,
+						"mercury": 1
 					},
-					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl3"] ],
+					"requires" : [ "allOf", ["dwellingLvl1"], ["dwellingLvl2"] ],
 					"id" : 34
 				},
 				"dwellingLvl6" :
 				{
-					"description" : "The Frozen Cavern allows you to recruit Mammoths.",
-					"name" : "Frozen Cavern",
+					"description" : "技术公会允许你招募磁电子人。",
+					"name" : "技术公会",
 					"cost" : 
 					{
-						"gold" : 4000,
-						"ore" : 10,
+						"gold" : 5000,
+						"wood": 5,
+						"ore" : 5,
 						"gems": 5,
-                                              "crystal": 5,
-                                              "mercury": 10
+						"mercury": 15
 					},
-					"requires" : [ "dwellingLvl4" ],
+					"requires" : [ "allOf", ["dwellingLvl3"], ["dwellingLvl5"] ],
 					"id" : 35
 				},
 				"dwellingLvl7" :
 				{
-					"description" : "The Volcanic Vent allows you to recruit Fafnirs.",
-					"name" : "Volcanic Vent",
+					"description" : "科技神殿允许你招募无畏战士。",
+					"name" : "科技神殿",
 					"cost" : 
 					{
-                                              "gold": 15000,
-                                               "wood": 5,
-						"ore" : 15,
-						"mercury" : 15
+						"gold": 10000,
+						"wood": 10,
+						"ore" : 10,
+						"mercury" : 20
 					},
-					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl5"] ],
+					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl6"] ],
 					"id" : 36
 				},
 				"dwellingUpLvl1" :
 				{
-					"description" : "The Upg. Dwarven Mines allows you to recruit Mountain Guards.",
-					"name" : "Upg. Dwarven Mines",
+					"description" : "高级佣兵基地允许你招募兵长。",
+					"name" : "高级佣兵基地",
 					"cost" :
 					{
 						"gold" : 1000
 					},
 					"id" : 37,
-					"requires" : [ "tavern" ],
+					//"requires" : [ "tavern" ],
 					"upgrades" : "dwellingLvl1"
 				},
 				"dwellingUpLvl2" :
 				{
-					"description" : "The Upg. Hunter Camp allows you to recruit Harpooners.",
-					"name" : "Upg. Hunter Camp",
+					"description" : "高级火枪铸造厂允许你招募监工。",
+					"name" : "高级火枪铸造厂",
 					"cost" : 
 					{
-						"gold" : 1500,
-						"wood" : 5,
-                                                  "ore": 5,
-                                                "mercury": 2
+						"gold" : 1200,
+						"wood" : 2,
+						"ore": 2,
+						"mercury": 2
 					},
 					"id" : 38,
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" :
 				{
-					"description" : "The Upg. Longhouse allows you to recruit Berserkers.",
-					"name" : "Upg. Longhouse",
-                                        "cost":
-                                             {
-                                                "gold": 1500,
-                                                "crystal": 2,
-                                                 "sulfur": 2
-                                               },
-                                        "requires" : [ "dwellingUpLvl1" ],
+					"description" : "高级车间允许你招募改造人。",
+					"name" : "高级车间",
+                    "cost":
+                     {
+                        "gold": 2000,
+                        "ore": 5,
+                        "mercury": 5
+                     },
+                    //"requires" : [ "dwellingUpLvl1" ],
 					"id" : 39,
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" :
 				{
-					"description" : "The Upg. Iceberg Nest allows you to recruit Blizzard Vultures.",
-					"name" : "Upg. Iceberg Nest",
+					"description" : "高级技师塔允许你招募工程师。",
+					"name" : "高级技师塔",
 					"cost" : 
 					{
 						"gold" : 2000,
-                                                "wood": 5,
-                                                "crystal": 10
+						"ore": 5
 					},
 					"id" : 40,
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" :
 				{
-				      "description" : "The Upg. Battle Fortress allows you to recruit Flame Gladiators.",
-					"name" : "Upg. Battle Fortress",
+				      "description" : "高级基因改造所允许你招募异变魔女。",
+					"name" : "高级基因改造所",
 					"cost" : 
 					{
 						"gold" : 3000,
 						"ore" : 5,
-						"sulfur" : 5
+						"mercury" : 1
 					},
 					"id" : 41,
-					"requires" : [ "dwellingUpLvl4" ],
+					//"requires" : [ "dwellingUpLvl4" ],
 					"upgrades" : "dwellingLvl5"
 				},
 				"dwellingUpLvl6" :
 				{
-					"description" : "The Upg. Frozen Cavern allows you to recruit Mammoth Lords.",
-					"name" : "Upg. Frozen Cavern",
+					"description" : "高级技术公会允许你招募核电子人。",
+					"name" : "高级技术公会",
 					"cost" : 
 					{
-						"gold" : 3000,
-						"ore" : 10,
-						"sulfur": 5,
-                                               "crystal": 3,
-                                               "mercury": 3
+						"gold" : 5000,
+						"gems" : 3,
+						"sulfur": 3,
+						"crystal": 3,
+						"mercury": 10
 					},
 					"id" : 42,
 					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" :
 				{
-					"description" : "The Upg. Volcanic Vent allows you to recruit Demonic Fafnirs.",
-					"name" : "Upg. Volcanic Vent",
+					"description" : "高级科技神殿允许你招募不朽卫士。",
+					"name" : "高级科技神殿",
 					"cost" : 
 					{
 						"gold": 15000,
-                                                "wood": 5,
-						"ore" : 5,
+						"wood": 10,
+						"ore" : 20,
 						"mercury" : 20
 					},
 					"id" : 43,
-					"requires" : [ "mageGuild3" ],
+					//"requires" : [ "mageGuild3" ],
 					"upgrades" : "dwellingLvl7"
 				}				
 			},
 			"buildingsIcons" : "technocracy/town-hall.def",
 			"creatures" : [
-				[ "defender", "mountainguard" ],
-				[ "javeliner", "harpooner" ],
-				[ "brute", "berserker" ],
-				[ "snowbird", "blizzardbird" ],
-				[ "gladiator", "flameglad" ],
-				[ "mammoth", "mammothlord" ],
-				[ "bsfafnir", "demonicfafnir" ]
+				["thlv1", "thlv1up"],
+				["thlv2", "thlv2up"],
+				["thlv3", "thlv3up"],
+				["thlv4", "thlv4up"],
+				["thlv5", "thlv5up"],
+				["thlv6", "thlv6up"],
+				["thlv7", "thlv7up"]
 			],
 			"guildBackground" : "TPMAGE.bmp",
 			"guildSpells" : {
@@ -650,32 +665,31 @@
 				}
 			},
 			"mageGuild" : 5,
-			
-			"musicTheme" : "music/factions/BastilleTown",
+			"musicTheme" : ["music/factions/BastilleTown"],
 			"names" : [
-				"Hammondale",
-				"Hoskins",
-				"Greyside",
-				"Nessborough",
-				"Firetrail",
-				"Loddonville",
-				"Darken Hill",
-				"Lapstone",
-				"Blaxbrook",
-				"Warren Rock",
-				"Bingara",
-				"Garahdale",
-				"Mount Dawson",
-				"Colomville",
-				"Manerford",
-				"Esperance"
+				"钢铁城堡",
+				"迪萨斯",
+				"多伦",
+				"克尔辛",
+				"格洛萨",
+				"齐科内",
+				"麦格尼镇",
+				"伊拉恩",
+				"吉萨镇",
+				"格尔图堡",
+				"卡伦达堡",
+				"莫森城",
+				"波曼",
+				"萨科辛基",
+				"塞登镇",
+				"斯坦沃"
 			],
 			"primaryResource" : "mercury",
 			"siege" : {
-				"shooter" : "javeliner",
+				"shooter" : "thlv2up",
 				"imagePrefix" : "technocracy/siege/SgFG",
-				"towerIconSmall" : "technocracy/icons/arrowtowersmall",
-				"towerIconLarge" : "technocracy/icons/arrowtowerslarge",
+				"towerIconSmall" : "technocracy/icons/towerSmall",
+				"towerIconLarge" : "technocracy/icons/towerLarge",
 				"gate" :
 				{
 					"arch" : { "x" : 486, "y" : 232 },
@@ -774,7 +788,8 @@
 					"area" : "technocracy/town-screen/buildings-area/TZFGTVRN",
 					"border" : "technocracy/town-screen/buildings-border/TOFGTVRN",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : -1
 				},
 				"fort" :
 				{
@@ -878,18 +893,18 @@
 				},
 				"special1" : 
 				{
-					"animation" : "technocracy/town-screen/buildings/TBFGSPEC",
-					"area" : "technocracy/town-screen/buildings-area/TZFGSPEC",
-					"border" : "technocracy/town-screen/buildings-border/TOFGSPEC",
+					"animation" : "technocracy/town-screen/buildings/TBFGSpe2",
+					"area" : "technocracy/town-screen/buildings-area/TZFGSpe2",
+					"border" : "technocracy/town-screen/buildings-border/TOFGSpe2",
 					"x" : 0,
 					"y" : 0,
 					"z" : -1
 				},
                                "special2":
                                 {
-                                      "animation": "technocracy/town-screen/buildings/TBFGSpe2",
-                                      "area": "technocracy/town-screen/buildings-area/TZFGSpe2",
-                                      "border": "technocracy/town-screen/buildings-border/TOFGSpe2",
+                                      "animation": "technocracy/town-screen/buildings/TBFGSPEC",
+                                      "area": "technocracy/town-screen/buildings-area/TZFGSPEC",
+                                      "border": "technocracy/town-screen/buildings-border/TOFGSPEC",
                                        "x": 0,
                                        "y": 0,
                                        "z": -1
@@ -1048,8 +1063,7 @@
 			},
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground" : "technocracy/town-screen/TPFGBACK.bmp",
-		"warMachine" : "ballista",
-		"moatAbility" : "castleMoat",
+		"moatAbility":"technocracyMoat",
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],

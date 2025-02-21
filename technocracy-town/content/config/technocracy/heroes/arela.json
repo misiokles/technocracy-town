@@ -1,0 +1,56 @@
+{
+	"arela" : 
+	{
+
+		"class" : "techknight",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "伊娃",
+			"biography" : "伊娃被称作一个完美的女性机械人。她自制造初期开始，就有着对女性独特的观感，也是这一点，造就了她的完美。",
+			"specialty" :
+			{
+				"description" : "在防御术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：防御术",
+				"name" : "防御术"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/arela/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/arela/spec-large.png",
+			"large" : "technocracy/heroes/arela/portrait-large.png",
+			"small" : "technocracy/heroes/arela/portrait-small.png"
+		},
+                "army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv2",    "min" : 5, "max" : 7 },
+			{ "creature" : "thlv3",         "min" : 2, "max" : 3}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

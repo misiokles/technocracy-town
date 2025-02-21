@@ -1,0 +1,53 @@
+{
+	"zeon" : 
+	{
+		"class" : "techknight",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "卢卡辛科",
+			"biography" : "卢卡辛科的诞生是一个奇迹。在一个黑暗的夜晚，技师们将魔法与力量结合起来，从而创造了这个天赋极强的电子人。当然，他具有着魔法和战斗的双重天赋，也是最为奇特的电子人之一。",
+			"specialty" : 
+			{
+				"description" : "将磁电子人升级为核电子人。",
+				"tooltip" : "特殊升级：电子人",
+				"name" : "升级电子人"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "technocracy/heroes/zeon/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/zeon/spec-large.png",
+			"large" : "technocracy/heroes/zeon/portrait-large.png",
+			"small" : "technocracy/heroes/zeon/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv2",    "min" : 5, "max" : 7 },
+			{ "creature" : "thlv3",         "min" : 2, "max" : 3}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty" : {
+			"base" : {
+				"addInfo" : "creature.thlv6up",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"thlv62thlv6up" : { "subtype" : "creature.thlv6" }
+			}
+		}
+	}
+}

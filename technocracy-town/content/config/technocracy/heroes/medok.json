@@ -1,0 +1,59 @@
+{
+	"medok" :
+	{
+		"class" : "techpriest",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "阿蒙",
+			"biography" : "阿蒙是传播信息的专家，因为他升级过的身体部分，他可以不用能量对自己的军队进行加速。",
+			"specialty" :
+			{
+				"description" : "在神秘术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：神秘术",
+				"name" : "神秘术"
+			}
+		}, 
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/medok/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/medok/spec-large.png",
+			"large" : "technocracy/heroes/medok/portrait-large.png",
+			"small" : "technocracy/heroes/medok/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+		"army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv2",    "min" : 4, "max" : 7 },
+			{ "creature" : "thlv3",         "min" : 2, "max" : 3}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+		
+		"specialty" :{
+			"bonuses" : {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

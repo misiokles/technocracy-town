@@ -1,0 +1,58 @@
+{
+	"parisa" : 
+	{
+		"class" : "techpriest",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "罗琳",
+			"biography" : "罗琳是唯一没有接受机械改造的人。她的身体不适合机械改造，所以她只能将机甲穿在身上。有时她会不满意铸造族的破坏计划。",
+			"specialty" :
+			{
+				"description" : "使用疗伤魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：疗伤",
+				"name" : "疗伤"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/parisa/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/parisa/spec-large.png",
+			"large" : "technocracy/heroes/parisa/portrait-large.png",
+			"small" : "technocracy/heroes/parisa/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"cure"
+		],
+		"army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv3",    "min" : 4, "max" : 6 },
+			{ "creature" : "firstAidTent",         "min" : 1, "max" : 1}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"cure" : {
+					"subtype" : "spell.cure",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

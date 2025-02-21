@@ -1,0 +1,47 @@
+{
+	"falok" : 
+	{
+		"class" : "techknight",
+		"female" : false,
+                "texts" :
+		{
+			"name" : "艾维斯",
+			"biography" : "艾维斯是残酷实验的成品。曾经多个接受改造实验的候选人中，只有他活了下来并保留了之前的大部分记忆。尽管身体和僵尸无异，但他的存在也证明了改造人并不是亡灵怪物。",
+			"specialty" : 
+			{
+				"description" : "达到3级以后提高生化人或改造人的攻击力与防御力。",
+				"tooltip" : "生物强化：生化人",
+				"name" : "生化人"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/falok/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/falok/spec-large.png",
+			"large" : "technocracy/heroes/falok/portrait-large.png",
+			"small" : "technocracy/heroes/falok/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv3",    "min" : 6, "max" : 6 },
+			{ "creature" : "thlv3",         "min" : 3, "max" : 3}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			}
+		],
+		"specialty" : 
+		{
+			"creature" : "thlv3"
+		}
+	}
+}
+

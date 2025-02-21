@@ -1,0 +1,121 @@
+{
+	"thlv2up" : {
+		"abilities" : {
+
+                    "canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noPenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+        },
+		"advMapAmount" : {"max" : 25, "min" : 16},
+		"aiValue" : 259,
+		"attack" : 6,
+		"cost" : { "gold" : 180 },
+		"damage" : {"max" : 4, "min" : 3},
+		"defense" : 7,
+		"faction" : "technocracy",
+		"fightValue" : 257,
+		"graphics" : {
+			"animation" : "technocracy/battle/lv2up.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"iconLarge" : "technocracy/iconsBig/lv2upb.bmp",
+			"iconSmall" : "technocracy/iconsSmall/lv2ups.bmp",
+			"map" : "technocracy/map/lv2upmap.def",
+
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "CPRGOGX.def",
+				"attackClimaxFrame" : 1,
+				"offset" :
+				{
+					"upperX" : 40,
+					"upperY" : -50,
+					"middleX" : 50,
+					"middleY" : -50,
+					"lowerX" : 20,
+					"lowerY" : -10
+				},
+				"frameAngles" : [90, 70, 40, 20, 0, -20, -40, -50, -50, 0, 0, 0]
+			}
+		},
+		"growth" : 8,
+		"hitPoints" : 20,
+		"level" : 2,
+		"shots" : 8,
+		"name" : { "plural" : "监工", "singular" : "监工" },
+		"sound" : {
+			"attack" : "technocracy/S198ATTK.wav",
+			"defend" : "technocracy/S198DFND.wav",
+			"killed" : "technocracy/S198KILL.wav",
+			"move" : "technocracy/S198MOVE.wav",
+			"wince" : "technocracy/S198WNCE.wav",
+            "shoot" : "technocracy/S198SHOT.wav"
+		},
+		"speed" : 6,
+		"stackExperience" : [
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{ "bonus" : { "type" : "SHOTS" }, "values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ] },
+			{
+				"bonus" : { "type" : "NO_DISTANCE_PENALTY" },
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true
+				]
+			}
+		]
+	}
+}

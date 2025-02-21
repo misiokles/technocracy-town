@@ -1,0 +1,51 @@
+{
+	"geron" : 
+	{
+		"class" : "techknight",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "希尔瓦",
+			"biography" : "希尔瓦在她出生之时就和劳工们待在一起，她学会了如何铸造抗魔的装甲。被铸造族控制之后，她成了铸造城中的一位将领。", 
+			"specialty" :
+			{
+				"description" : "达到2级以后提高劳工或监工的攻击力与防御力。",
+				"tooltip" : "生物强化：劳工",
+				"name" : "劳工"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/geron/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/geron/spec-large.png",
+			"large" : "technocracy/heroes/geron/portrait-large.png",
+			"small" : "technocracy/heroes/geron/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		"army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv2",    "min" : 6, "max" : 9 },
+			{ "creature" : "thlv2",         "min" : 4, "max" : 7}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
+		"specialty" : 
+		{
+			"creature" : "thlv2"
+		}
+	}
+}

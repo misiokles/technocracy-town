@@ -1,0 +1,148 @@
+{
+	"thlv7":
+	{
+		"name" :
+		{
+			"plural" : "无畏战士",
+			"singular" : "无畏战士"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "technocracy",
+		"aiValue" : 8109,
+		"attack" : 20,
+		"cost" :
+		{
+			"gold" : 3000,
+			"mercury" : 2
+		},
+		"damage" :
+		{
+			 "max" : 46,
+			 "min" : 36
+		},
+		"defense" : 21,
+		"fightValue" : 6319,
+		"graphics" :
+		{
+			"animation" : "technocracy/battle/lv7.DEF",
+			"animationTime" : { "attack" : 1,  "idle" : 4, "walk" : 1.30 },
+			"map" : "technocracy/map/lv7map.def",
+			"iconSmall" : "technocracy/iconsSmall/lv7s.bmp",
+			"iconLarge" : "technocracy/iconsBig/lv7b.bmp",
+			"timeBetweenFidgets" : 10
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 260,
+		"level" : 7,
+		"upgrades":
+		[
+			"thlv7up"
+		],
+		"sound" :
+		{
+			"attack" : "technocracy/S209ATTK.wav",
+			"defend" : "technocracy/S209DFND.wav",
+			"killed" : "technocracy/S209KILL.wav",
+			"move" : "technocracy/S209MOVE.wav",
+			"wince" : "technocracy/S209WNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" : {
+			"robot":
+			{	
+				"type" : "NON_LIVING"
+			},
+			"KING3":
+			{
+				"type" : "KING",
+				"val" : 3
+				
+			},
+			"FIRE_IMMUNITY"	:
+			{
+				"subtype" : "fire",
+				"type" : "SPELL_SCHOOL_IMMUNITY"
+			},
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 20
+			}				
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "BLOCKS_RETALIATION"
+				},
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "DOUBLE_DAMAGE_CHANCE"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 20, 20, 20 ]
+			}
+		]
+	}
+}
+
+

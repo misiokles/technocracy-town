@@ -1,0 +1,123 @@
+{
+	"thlv4":
+	{
+		"name" :
+		{
+			"plural" : "技师",
+			"singular" : "技师"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 10
+		},
+		"faction" : "technocracy",
+		"aiValue" : 625,
+		"attack" : 8,
+        "cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			 "max" : 7,
+			 "min" : 6
+		},
+		"defense" : 8,
+		"fightValue" : 593,
+		"graphics" :
+		{
+			"animation" : "technocracy/battle/lv4.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "technocracy/map/lv4map.def",
+			"iconSmall" : "technocracy/iconsSmall/lv4s.bmp",
+			"iconLarge" : "technocracy/iconsBig/lv4b.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "CPRGOGX.def",
+				"attackClimaxFrame" : 1,
+				"offset" :
+				{
+					"upperX" : 40,
+					"upperY" : -50,
+					"middleX" : 50,
+					"middleY" : -50,
+					"lowerX" : 20,
+					"lowerY" : -10
+				},
+				"frameAngles" : [90, 70, 40, 20, 0, -20, -40, -50, -50, 0, 0, 0]
+			}
+        },
+		"growth" : 4,
+		"hitPoints" : 30,
+		"level" : 4,
+		"shots" : 12,
+		"upgrades":
+		[
+			"thlv4up"
+		],
+		"sound" :
+		{
+			"attack" : "technocracy/S205ATTK.wav",
+			"defend" : "technocracy/S205DFND.wav",
+			"killed" : "technocracy/S205KILL.wav",
+			"move" : "technocracy/S205MOVE.wav",
+			"wince" : "technocracy/S205WNCE.wav",
+            "shoot" : "technocracy/S198SHOT.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"canShoot" : 
+			{
+				"type" : "SHOOTER"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+	}
+}

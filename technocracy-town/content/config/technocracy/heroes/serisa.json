@@ -1,0 +1,52 @@
+{
+	"serisa" :
+	{
+		"class" : "techpriest",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "瑞贝卡",
+			"biography" : "瑞贝卡是个克里根女妖，当她迷上了机械技术之后，她将自己改造成和之前完全不一样的形象。但是，她心中的恶魔火焰，却永远不会消除。有人说瑞贝卡是铸造族最忠实的拥护者。",
+			"specialty" :
+			{
+				"description" : "达到5级以后提高机械女巫或异变女巫的攻击力与防御力。",
+				"tooltip" : "生物强化：机械女巫",
+				"name" : "机械女巫"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "technocracy/heroes/serisa/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/serisa/spec-large.png",
+			"large" : "technocracy/heroes/serisa/portrait-large.png",
+			"small" : "technocracy/heroes/serisa/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"fireball"
+		],
+                "army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv2",    "min" : 5, "max" : 7 },
+			{ "creature" : "thlv3",         "min" : 2, "max" : 3}
+		],
+		"skills" : 
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			}
+		],
+		"specialty" : 
+		{
+			"creature" : "thlv5"
+		}
+	}
+}

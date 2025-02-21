@@ -1,0 +1,77 @@
+{
+	"thlv2" : {
+		"abilities" : {},
+		"advMapAmount" : {"max" : 30, "min" : 16},
+		"aiValue" : 236,
+		"attack" : 6,
+		"cost" : { "gold" : 140 },
+		"damage" : {"max" : 4, "min" : 2},
+		"defense" : 6,
+		"faction" : "technocracy",
+		"fightValue" : 333,
+		"graphics" : {
+			"animation" : "technocracy/battle/lv2.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"iconLarge" : "technocracy/iconsBig/lv2b.bmp",
+			"iconSmall" : "technocracy/iconsSmall/lv2s.bmp",
+			"map" : "technocracy/map/lv2map.def",
+						"timeBetweenFidgets" : 1
+		},
+		"growth" : 8,
+		"hitPoints" : 20,
+		"level" : 2,
+		"name" : { "plural" : "劳工", "singular" : "劳工" },
+			"sound" : {
+			"attack" : "technocracy/S198ATTK.wav",
+			"defend" : "technocracy/S198DFND.wav",
+			"killed" : "technocracy/S198KILL.wav",
+			"move" : "technocracy/S198MOVE.wav",
+			"wince" : "technocracy/S198WNCE.wav"
+		},
+		"speed" : 4,
+		"stackExperience" : [ {
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{ "bonus" : { "type" : "SHOTS" }, "values" : [ 1, 1, 2, 2, 2, 3, 3, 3, 4, 4 ] } ],
+		"upgrades" : [ "thlv2up" ]
+	}
+}

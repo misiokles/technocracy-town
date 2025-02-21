@@ -1,0 +1,176 @@
+{
+	"thlv6up":
+	{
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"name" :
+		{
+			"plural" : "核电子人",
+			"singular" : "核电子人"
+		},		
+		"faction": "technocracy",
+		"aiValue" : 2257,
+		"fightValue" : 1892,
+		"attack" : 18,
+		"defense" : 17,
+		"cost" :
+		{
+			"gold" : 2100,
+			"sulfur" : 2
+		},
+		"damage" :
+		{
+			 "min" : 24,
+			 "max" : 36
+		},
+		"speed" : 7,
+		"graphics" :
+		{
+			"animation" : "technocracy/battle/lv6up.def",
+			"map" : "technocracy/map/lv6upmap.def",
+			"iconSmall" : "technocracy/iconsSmall/lv6ups.bmp",
+			"iconLarge" : "technocracy/iconsBig/lv6upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.17,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"hitPoints" : 180,
+		"growth" : 1,
+		"level" : 6,
+		"sound" :
+		{
+			"attack": "technocracy/DALKATTK.wav",
+			"defend": "technocracy/DALKDFND.wav",
+			"killed": "technocracy/DALKKILL.wav",
+			"move": "technocracy/DALKMOVE.wav",
+			"wince": "technocracy/DALKWNCE.wav"
+		},
+		"abilities" :
+		{
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"extraAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			},
+			"robot":
+			{	
+				"type" : "NON_LIVING"
+			},
+			"nomorale":
+			{
+				"type": "NO_MORALE"
+			},
+			"mindimmunity":
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS",
+			}				
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "air",
+					"type" : "SPELL_SCHOOL_IMMUNITY"
+				},
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "earth",
+					"type" : "SPELL_SCHOOL_IMMUNITY"
+				},
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "fire",
+					"type" : "SPELL_SCHOOL_IMMUNITY"
+				},
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "water",
+					"type" : "SPELL_SCHOOL_IMMUNITY"
+				},
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "JOUSTING"
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			}
+		]
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"bella" :
+	{
+		"class" : "techknight",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "内尔",
+			"biography" : "内尔脱胎于一个对机械设计热衷的女性工程师。她被按照这位工程师的样子设计出来，成为了她的复制人。但她的思想却终有一天战胜了她的主人。自此，她抛弃了主人曾经赐予她的仿生外壳。",
+			"specialty" :
+			{
+				"description" : "达到4级以后提高技师或工程师的攻击力与防御力。",
+				"tooltip" : "生物强化：技师",
+				"name" : "技师"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "technocracy/heroes/bella/spec-small.png",
+			"specialtyLarge" : "technocracy/heroes/bella/spec-large.png",
+			"large" : "technocracy/heroes/bella/portrait-large.png",
+			"small" : "technocracy/heroes/bella/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "thlv1", "min" : 15, "max" : 25 },
+			{ "creature" : "thlv2",    "min" : 5, "max" : 8 },
+			{ "creature" : "thlv3",         "min" : 2, "max" : 3}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
+		"specialty" : 
+		{
+			"creature" : "thlv4"
+		}
+	}
+}
