@@ -20,7 +20,7 @@
 		"growth" : 8,
 		"hitPoints" : 20,
 		"level" : 2,
-		"name" : { "plural" : "劳工", "singular" : "劳工" },
+		"name" : { "plural" : "Laborers", "singular" : "Laborer" },
 			"sound" : {
 			"attack" : "technocracy/S198ATTK.wav",
 			"defend" : "technocracy/S198DFND.wav",

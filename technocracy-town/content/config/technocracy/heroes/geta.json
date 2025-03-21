@@ -5,13 +5,13 @@
 		"female" : false,
 		"texts" :
 		{
-			"name" : "尼瑞克",
-			"biography" : "在加入铸造族后，技师长尼瑞克帮助苏利控制机器人。但不幸的是，他根本无法找到任何可向对方学习的东西。",
+			"name" : "Geta",
+			"biography" : "After joining Technocracy, Chief technician Bella helped Geta control the robots.But unfortunately, she simply couldn't find anything to learn from each other.",
 			"specialty" :
 			{
-				"description" : "达到4级以后提高弩车的攻击力与防御力。",
-				"tooltip" : "生物强化：弩车",
-				"name" : "弩车"
+				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Ballista",
+				"name" : "Ballista"
 			}
 		},
 		

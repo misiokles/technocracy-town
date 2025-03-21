@@ -5,13 +5,13 @@
 		"female" : false,
 		"texts" :
 		{
-			"name" : "玛纳斯",
-			"biography" : "玛纳斯从制造初期就有着极强的机动性。这个机械人的速度和耐久力，对地形的适应性，都是别的机械人无法比拟的。",
+			"name" : "Forti",
+			"biography" : "Forti has been extremely maneuverable from the early stages of its manufacture. The speed and durability of this cyborg, its adaptability to the terrain, are unmatched by any other cyborg.",
 			"specialty" :
 			{
-				"description" : "在后勤学上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：后勤学",
-				"name" : "后勤学"
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+				"tooltip" : "Secondary skill bonus: Logistics",
+				"name" : "Logistics"
 			}
 		},
 		"images" :

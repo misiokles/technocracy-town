@@ -5,13 +5,13 @@
 		"female" : false,
 		"texts" :
 		{
-			"name" : "达利斯",
-			"biography" : "达利斯是具有新基因的机器人。他也和其他电子人一样被高级科技控制，他充满高级力量的身体让他的施法易如反掌。",
+			"name" : "Srates",
+			"biography" : "Darius is a cyborg with new genes. He is also controlled by advanced technology like the other cyborgs, and his body filled with advanced powers makes casting spells easy.",
 			"specialty" : 
 			{
-				"description" : "在智力技能上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：智力",
-				"name" : "智力"
+				"description" : "Receives a 5% per level bonus to Intelligence skill.",
+				"tooltip" : "Secondary Skill Bonus: Intelligence",
+				"name" : "Intelligence"
 			}
 		},
 		"images" :

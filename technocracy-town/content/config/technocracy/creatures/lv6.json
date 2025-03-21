@@ -8,8 +8,8 @@
 		},
 		"name" :
 		{
-			"plural" : "磁电子人",
-			"singular" : "磁电子人"
+			"plural" : "Magnetic Cyborgs",
+			"singular" : "Magnetic Cyborg"
 		},		
 		"faction": "technocracy",
 		"aiValue" : 1953,

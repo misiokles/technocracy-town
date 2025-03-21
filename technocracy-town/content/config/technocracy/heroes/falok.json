@@ -5,13 +5,13 @@
 		"female" : false,
                 "texts" :
 		{
-			"name" : "艾维斯",
-			"biography" : "艾维斯是残酷实验的成品。曾经多个接受改造实验的候选人中，只有他活了下来并保留了之前的大部分记忆。尽管身体和僵尸无异，但他的存在也证明了改造人并不是亡灵怪物。",
+			"name" : "Falok",
+			"biography" : "Falok is the finished product of a cruel experiment. Of the many candidates who have undergone transformation experiments, he is the only one to survive and retain most of his former memories. Although physically indistinguishable from a zombie, his existence proves that reformed humans are not undead monsters.",
 			"specialty" : 
 			{
-				"description" : "达到3级以后提高生化人或改造人的攻击力与防御力。",
-				"tooltip" : "生物强化：生化人",
-				"name" : "生化人"
+				"description" : "Increases Speed of any Cyborgs or Cyborg Makers by 1 and their Attack and Defense skills by 5% for 3 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Cyborgs",
+				"name" : "Cyborgs"
 			}
 		},
 		"images" :

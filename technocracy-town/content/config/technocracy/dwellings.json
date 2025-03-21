@@ -2,7 +2,7 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"thBarracks" : {
-				"name" : "佣兵基地",
+				"name" : "Barracks",
 				"creatures" : [[ "thlv1" ]],
 				"templates" : {
 					"default" : {
@@ -12,7 +12,7 @@
 				}
 			},
 			"thSlaughterhouse" : {
-				"name" : "火枪铸造厂",
+				"name" : "Slaughterhouse",
 				"creatures" : [[ "thlv2" ]],
 				"templates" : {
 					"default" : {
@@ -22,7 +22,7 @@
 				}
 			},
 			"thFireBasin" : {
-				"name" : "车间",
+				"name" : "Fire Basin",
 				"creatures" : [[ "thlv3" ]],
 				"templates" : {
 					"default" : {	
@@ -32,7 +32,7 @@
 				}
 			},
 			"thAirstrip" : {
-				"name" : "技师塔",
+				"name" : "Airstrip",
 				"creatures" : [[ "thlv4" ]],
 				"templates" : {
 					"default" : {
@@ -42,7 +42,7 @@
 				}
 			},
 			"thMachineShop" : {
-				"name" : "基因改造所",
+				"name" : "Machine Shop",
 				"creatures" : [[ "thlv5" ]],
 				"guards" : true,
 				"templates" : {
@@ -53,7 +53,7 @@
 				}
 			},
 			"thAncientRefinery" : {
-				"name" : "技术公会",
+				"name" : "Ancient Refinery",
 				"creatures" : [[ "thlv6" ]],
 				"guards" : true,
 				"templates" : {
@@ -64,7 +64,7 @@
 				}
 			},
 			"thGarage" : {
-				"name" : "科技神殿",
+				"name" : "Garage",
 				"creatures" : [[ "thlv7" ]],
 				"guards" : true,
 				"templates" : {

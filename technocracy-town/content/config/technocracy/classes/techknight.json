@@ -8,7 +8,7 @@
 		"highLevelChance" : { "attack" : 30, "defence" : 30, "knowledge" : 20, "spellpower" : 20 },
 		"lowLevelChance" : { "attack" : 35, "defence" : 45, "knowledge" : 10, "spellpower" : 10 },
 		"mapObject" : { "templates" : { "default" : { "animation" : "technocracy/map/heroes/AH18_" } } },
-		"name" : "机械人",
+		"name" : "Technoknight",
 		"primarySkills" : { "attack" : 2, "defence" : 2, "knowledge" : 1, "spellpower" : 1 },
 		"secondarySkills" : {
 			"pathfinding"  : 4,

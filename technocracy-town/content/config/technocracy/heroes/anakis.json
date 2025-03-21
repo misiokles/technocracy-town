@@ -5,13 +5,13 @@
 		"female" : false,
 		"texts" :
 		{
-			"name" : "苏利",
-			"biography" : "在铸造族重建之后，苏利终于证明了自己对电子人的掌控能力，这也是让他成为主要将领的理由。",
+			"name" : "Anakis",
+			"biography" : "With the rebuilding of the Technology Guild, Anakis finally proved his skill at controlling cyborgs, making him a better general.",
 			"specialty" : 
 			{
-				"description" : "达到6级以后提高磁电子人或核电子人的攻击力与防御力。",
-				"tooltip" : "生物强化：磁电子人",
-				"name" : "磁电子人"
+				"description" : "Increases Speed of any Magnetic Cyborgs or Nuclear Cyborgs by 1 and their Attack and Defense skills by 5% for 6 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Magnetic Cyborgs",
+				"name" : "Magnetic Cyborgs"
 			}
 		},
 		"images" :

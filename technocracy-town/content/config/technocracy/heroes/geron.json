@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "希尔瓦",
-			"biography" : "希尔瓦在她出生之时就和劳工们待在一起，她学会了如何铸造抗魔的装甲。被铸造族控制之后，她成了铸造城中的一位将领。", 
+			"name" : "Geron",
+			"biography" : "Geron stayed with the laborers at her birth, and she learned how to forge armor against demons. After being controlled by Technocracy, she became a general in the Foundry City.", 
 			"specialty" :
 			{
-				"description" : "达到2级以后提高劳工或监工的攻击力与防御力。",
-				"tooltip" : "生物强化：劳工",
-				"name" : "劳工"
+				"description" : "Increases Speed of any Laborers or Overseers by 1 and their Attack and Defense skills by 5% for 2 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Laborers",
+				"name" : "Laborers"
 			}
 		},
 		"images" :

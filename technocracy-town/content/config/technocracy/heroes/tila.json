@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "黛儿塔",
-			"biography" : "黛儿塔在图书馆花费了很多时间，所以她才会比其他电子人学得更快。她之所以对魔法极有兴趣，是因为她的朋友们很早以前就被铁拳王朝的法师们杀死了。",
+			"name" : "Tila",
+			"biography" : "Tila spends a lot of time in the library, which is why she learns faster than other cyborgs. She is extremely interested in magic because her friends were killed a long time ago by the mages of the Iron Fist Dynasty.",
 			"specialty" : 
 			{
-				"description" : "为王国每天额外提供1水银。",
-				"tooltip" : "每天+1水银",
-				"name" : "+1水银"
+				"description" : "Increases kingdom's mercury production by 1 per day.",
+				"tooltip" : "Resource Bonus: Mercury",
+				"name" : "Mercury"
 			}
 		},
 		"images" :

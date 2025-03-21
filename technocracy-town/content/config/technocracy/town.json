@@ -3,7 +3,7 @@
 		"alignment" : "neutral",
 		"boat" : "boatNecropolis",
 		"creatureBackground" : { "120px" : "technocracy/creature-bg-120px.bmp", "130px" : "technocracy/creature-bg-130px.bmp" },
-		"name" : "机械",
+		"name" : "Technocracy",
 		"nativeTerrain" : "lava",
 		"puzzleMap" : {
 			"prefix" : "technocracy/puzzle-map/",
@@ -65,8 +65,8 @@
 				"mageGuild1" :
 				{
 					
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "1级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
 					"cost" :
 					{
 						"wood" : 5,
@@ -78,8 +78,8 @@
 				"mageGuild2" :
 				{
 					
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "2级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
 					"cost" :
 					{
 						"wood" : 5,
@@ -95,8 +95,8 @@
 				},
 				"mageGuild3" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "3级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
 					"cost" :
 					{
 						"wood" : 5,
@@ -112,8 +112,8 @@
 				},
 								"mageGuild4" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "4级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
 					"cost" :
 					{
 						"wood": 5,
@@ -129,8 +129,8 @@
 				},
 				"mageGuild5" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "5级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
 					"cost" :
 					{
 						"wood": 5,
@@ -146,8 +146,8 @@
 				},
 				"tavern" :
 				{
-					"name" : "酒馆",
-					"description" : "酒馆可提高驻军的士气。",
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
 					"cost" :
 					{
 						"wood" : 5,
@@ -157,8 +157,8 @@
 				},
 				"shipyard" :
 				{
-					"name" : "船坞",
-					"description" : "船坞允许你购买船只。",
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
 					"cost" :
 					{
 						"wood" : 20,
@@ -168,8 +168,8 @@
 				},
 				"fort" :
 				{
-					"name" : "堡垒",
-					"description" : "堡垒可为你的城镇提供城墙。",
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
 					"cost" :
 					{
 						"wood" : 20,
@@ -180,8 +180,8 @@
 				},
 				"citadel" :
 				{
-					"name" : "大本营",
-					"description" : "大本营不仅使生物的基本生长率提高50%，还能加强城镇的防御设施。",
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"cost" :
 					{
 						"ore" : 5,
@@ -192,8 +192,8 @@
 				},
 				"castle" :
 				{
-					"name" : "城堡",
-					"description" : "城堡可提供2座副箭塔以加强城镇的防御，而且还使生物的基本生长率加倍。",
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"cost" :
 					{
 						"wood" : 10,
@@ -205,15 +205,15 @@
 				},
 				"villageHall" :
 				{
-					"name" : "议事堂",
-					"description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。",
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
 					"id" : 10,
 					"mode" : "auto"
 				},
 				"townHall" :
 				{
-					"name" : "内政厅",
-					"description" : "内政厅可以让你购买城镇建筑，并每天向你提供1000个金币。",
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" :
 					{
 						"gold" : 2500
@@ -224,8 +224,8 @@
 				},
 				"cityHall" :
 				{
-					"name" : "议会",
-					"description" : "议会可以让你购买城镇建筑并每天向你提供2000个金币。",
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"cost" :
 					{
 						"gold" : 5000
@@ -236,8 +236,8 @@
 				},
 				"capitol" :
 				{
-					"name" : "国会",
-					"description" : "国会每天向你提供4000个金币。",
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"cost" :
 					{
 						"gold" : 10000
@@ -248,8 +248,8 @@
 				},
 				"marketplace" :
 				{
-					"name" : "市场",
-			        "description" : "市场可让你交换资源(你所拥有的市场越多，价格越便宜)。",
+					"name" : "Marketplace",
+			        "description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"cost" :
 					{
 						"wood" : 5,
@@ -259,8 +259,8 @@
 				},
 				"resourceSilo" :
 				{
-					"description" : "物资仓库每天为你额外提供1水银。",
-					"name" : "物资仓库",
+					"description" : "The Resourse Silo provides you with an additional +1 mercury each day.",
+					"name" : "Resource Silo",
 					"cost" :
 					{
 						"ore" : 5,
@@ -272,8 +272,8 @@
 				},
 				"blacksmith" :
 				{
-					"description" : "铁匠铺可向你的军队提供弩车。",
-					"name" : "铁匠铺",
+					"description" : "The Blacksmith provides your armies with Ballista.",
+					"name" : "Blacksmith",
 					"cost" :
 					{
 						"wood" : 5,
@@ -284,8 +284,8 @@
 				},
 				"horde1" :
 				{
-					"description" : "督军营房使新兵和兵长的周产量+10。",
-					"name" : "督军营房",
+					"description" : "The Barracks increase the weekly output of Rookies and Captains by +10.",
+					"name" : "Barracks",
 					"cost" : 
 					{
 						"gold" : 1000
@@ -296,8 +296,8 @@
 				},
 				"horde1Upgr" :
 				{
-					"description" : "督军营房使新兵和兵长的周产量+10。",
-					"name" : "督军营房",
+					"description" : "The Captain Barracks increase the weekly output of Rookies and Captains by +10.",
+					"name" : "Captain Barracks",
 					"cost" : 
 					{
 						"gold" : 1000
@@ -309,15 +309,15 @@
 				},
 				"ship" :
 				{
-					"name" : "船只",
-					"description" : "船员们正在等待起航。",
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
 
 					"id" : 20
 				},
 				"special1" : 
 				{
-					"description" : "间谍卫星可扩大城镇周围的可视范围。",
-					"name" : "间谍卫星",
+					"description" : "Spy Satellites can expand the visual range around the town",
+					"name" : "Spy Satellite",
 					"height" : "average",
 					"cost" : 
 					{
@@ -329,8 +329,8 @@
 				},
                 "special2":
                 {
-                    "description": "在科技魔法学院里，你可以花钱学习四种派系的魔法。",
-                     "name": "科技魔法学院",
+                    "description": "In the Academy of Science, Technology and Magic, you can spend money to learn the magic of four factions.",
+                     "name": "Academy",
                      "marketModes" : ["resource-skill"],
                      "cost":
                      {
@@ -343,8 +343,8 @@
                 },
                 "special3":
                 {
-                   "description": "钻井平台每天为你额外提供1硫磺。",
-                    "name": "钻井平台",
+                   "description": "The Drilling Platform provides you with an additional 1 Sulfur per day.",
+                    "name": "Drilling Platform",
                     "cost":
                     {
                         "wood": 5,
@@ -360,8 +360,8 @@
 				},
 				"grail" :
 				{
-					"description" : "堕落工厂使每周的生物产量提高50%，每天为你的王国额外提供5000个金币，并且使所有同族生物的速度+1。",
-					"name" : "堕落工厂",
+					"description" : "The Fallen Factory increases weekly creature generation by 50 percent, adds 5000 gold per day. All spells can be cast in advanced level at least.",
+					"name" : "Fallen Factory",
 					"id" : 26,
 					"mode" : "grail",
 					"produce": { "gold": 5000 },
@@ -371,8 +371,8 @@
 				},
 				"dwellingLvl1" :
 				{
-					"description" : "佣兵基地允许你招募新兵。",
-					"name" : "佣兵基地",
+					"description" : "The Mercenary Base allows you to recruit Rookies.",
+					"name" : "Mercenary Base",
 					"cost" : 
 					{
 						"gold" : 1000,
@@ -384,8 +384,8 @@
 				},
 				"dwellingLvl2" :
 				{
-					"description" : "火枪铸造厂允许你招募劳工。",
-					"name" : "火枪铸造厂",
+					"description" : "The Firearms Foundry allows you to recruit Laborers.",
+					"name" : "Firearms Foundry",
 					"cost" : 
 					{
 						"gold" : 1500,
@@ -396,8 +396,8 @@
 				},
 				"dwellingLvl3" :
 				{
-					"description" : "车间允许你招募生化人。",
-					"name" : "车间",
+					"description" : "The Workshop allows you to recruit Cyborgs.",
+					"name" : "Workshop",
 					"cost" : 
 					{
 						"gold" : 1500,
@@ -408,8 +408,8 @@
 				},
 				"dwellingLvl4" :
 				{
-					"description" : "技师塔允许你招募技师。",
-					"name" : "技师塔",
+					"description" : "The Technician Tower allows you to recruit Technicians",
+					"name" : "Technician Tower",
 					"cost" : 
 					{
                                                "gold": 2000,
@@ -420,8 +420,8 @@
 				},
 				"dwellingLvl5" :
 				{
-					"description" : "基因改造所允许你招募机械魔女。",
-					"name" : "基因改造所",
+					"description" : "The Institute of Genetics allows you to recruit Mechanical Witches",
+					"name" : "Institute of Genetics",
 					"cost" : 
 					{
 						"gold" : 4000,
@@ -433,8 +433,8 @@
 				},
 				"dwellingLvl6" :
 				{
-					"description" : "技术公会允许你招募磁电子人。",
-					"name" : "技术公会",
+					"description" : "The Technology Guild allows you to recruit Magnetic Cyborgs",
+					"name" : "Technology Guild",
 					"cost" : 
 					{
 						"gold" : 5000,
@@ -448,8 +448,8 @@
 				},
 				"dwellingLvl7" :
 				{
-					"description" : "科技神殿允许你招募无畏战士。",
-					"name" : "科技神殿",
+					"description" : "The Temple of Technology allows you to recruit Fearless Fighters",
+					"name" : "Temple of Technology",
 					"cost" : 
 					{
 						"gold": 10000,
@@ -462,8 +462,8 @@
 				},
 				"dwellingUpLvl1" :
 				{
-					"description" : "高级佣兵基地允许你招募兵长。",
-					"name" : "高级佣兵基地",
+					"description" : "The Advanced Mercenary Base allows you to recruit Captains",
+					"name" : "Adv. Mercenary Base",
 					"cost" :
 					{
 						"gold" : 1000
@@ -474,8 +474,8 @@
 				},
 				"dwellingUpLvl2" :
 				{
-					"description" : "高级火枪铸造厂允许你招募监工。",
-					"name" : "高级火枪铸造厂",
+					"description" : "The Advanced Firearms Foundry allows you to recruit Overseers",
+					"name" : "Adv. Firearms Foundry",
 					"cost" : 
 					{
 						"gold" : 1200,
@@ -488,8 +488,8 @@
 				},
 				"dwellingUpLvl3" :
 				{
-					"description" : "高级车间允许你招募改造人。",
-					"name" : "高级车间",
+					"description" : "The Advanced Workshop allows you to recruit Cyborg Makers",
+					"name" : "Advanced Workshop",
                     "cost":
                      {
                         "gold": 2000,
@@ -502,8 +502,8 @@
 				},
 				"dwellingUpLvl4" :
 				{
-					"description" : "高级技师塔允许你招募工程师。",
-					"name" : "高级技师塔",
+					"description" : "The Advanced Technician Tower allows you to recruit Engineers",
+					"name" : "Adv. Technician Tower",
 					"cost" : 
 					{
 						"gold" : 2000,
@@ -514,8 +514,8 @@
 				},
 				"dwellingUpLvl5" :
 				{
-				      "description" : "高级基因改造所允许你招募异变魔女。",
-					"name" : "高级基因改造所",
+				      "description" : "The Advanced Institute of Genetics allows you to recruit Mechanical Banshees",
+					"name" : "Adv. Institute of Genetics",
 					"cost" : 
 					{
 						"gold" : 3000,
@@ -528,8 +528,8 @@
 				},
 				"dwellingUpLvl6" :
 				{
-					"description" : "高级技术公会允许你招募核电子人。",
-					"name" : "高级技术公会",
+					"description" : "The Advanced Technology Guild allows you to recruit Nuclear Cyborgs",
+					"name" : "Advanced Technology Guild",
 					"cost" : 
 					{
 						"gold" : 5000,
@@ -543,8 +543,8 @@
 				},
 				"dwellingUpLvl7" :
 				{
-					"description" : "高级科技神殿允许你招募不朽卫士。",
-					"name" : "高级科技神殿",
+					"description" : "The Temple of Advanced Technology allows you to recruit Immortal Guardians",
+					"name" : "The Temple of Adv. Technology",
 					"cost" : 
 					{
 						"gold": 15000,
@@ -667,22 +667,22 @@
 			"mageGuild" : 5,
 			"musicTheme" : ["music/factions/BastilleTown"],
 			"names" : [
-				"钢铁城堡",
-				"迪萨斯",
-				"多伦",
-				"克尔辛",
-				"格洛萨",
-				"齐科内",
-				"麦格尼镇",
-				"伊拉恩",
-				"吉萨镇",
-				"格尔图堡",
-				"卡伦达堡",
-				"莫森城",
-				"波曼",
-				"萨科辛基",
-				"塞登镇",
-				"斯坦沃"
+				"Steel Castle",
+				"Disas",
+				"Doran",
+				"Kelsin",
+				"Glosa",
+				"Zicone",
+				"Magny Town",
+				"Elaine",
+				"Giza Town",
+				"Fort Gertu",
+				"Kalenda Castle",
+				"Mawson City",
+				"Foundry City",
+				"Sakosinki.",
+				"Seddon Town",
+				"Stanworth"
 			],
 			"primaryResource" : "mercury",
 			"siege" : {

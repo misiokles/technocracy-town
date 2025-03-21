@@ -47,7 +47,7 @@
 		"hitPoints" : 20,
 		"level" : 2,
 		"shots" : 8,
-		"name" : { "plural" : "监工", "singular" : "监工" },
+		"name" : { "plural" : "Overseers", "singular" : "Overseer" },
 		"sound" : {
 			"attack" : "technocracy/S198ATTK.wav",
 			"defend" : "technocracy/S198DFND.wav",

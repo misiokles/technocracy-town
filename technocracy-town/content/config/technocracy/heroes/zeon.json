@@ -5,13 +5,13 @@
 		"female" : false,
 		"texts" :
 		{
-			"name" : "卢卡辛科",
-			"biography" : "卢卡辛科的诞生是一个奇迹。在一个黑暗的夜晚，技师们将魔法与力量结合起来，从而创造了这个天赋极强的电子人。当然，他具有着魔法和战斗的双重天赋，也是最为奇特的电子人之一。",
+			"name" : "Zeon",
+			"biography" : "The birth of Zeon is a miracle. On a dark night, the technicians combined magic and power to create this extremely talented cyborg. Of course, he has the dual talents of magic and combat, and is also one of the most peculiar cyborgs.",
 			"specialty" : 
 			{
-				"description" : "将磁电子人升级为核电子人。",
-				"tooltip" : "特殊升级：电子人",
-				"name" : "升级电子人"
+				"description" : "Can upgrade Magnetic Cyborgs to Nuclear Cyborgs.",
+				"tooltip" : "Special Upgrades",
+				"name" : "Free upgrades Magnetic Cyborgs"
 			}
 		},
 		"images" :

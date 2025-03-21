@@ -8,7 +8,7 @@
 		"highLevelChance" : { "attack" : 20, "defence" : 20, "knowledge" : 30, "spellpower" : 30 },
 		"lowLevelChance" : { "attack" : 20, "defence" : 15, "knowledge" : 30, "spellpower" : 35 },
 		"mapObject" : { "templates" : { "default" : { "animation" : "technocracy/map/heroes/AH19_" } } },
-		"name" : "电子人",
+		"name" : "Technopriest",
 		"primarySkills" : { "attack" : 1, "defence" : 1, "knowledge" : 2, "spellpower" : 2 },
 		"secondarySkills" : {
 			"pathfinding"  : 2,

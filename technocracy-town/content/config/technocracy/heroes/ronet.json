@@ -5,13 +5,13 @@
 		"female" : false,
 		"texts" :
 		{
-			"name" : "布拉德",
-			"biography" : "布拉德曾经是个杀手领导者。当他度假之时被一种可怕的血浆射中脸部感染，现在他不再像是一个人类了。", 
+			"name" : "Ronet",
+			"biography" : "Ronet used to be a killer leader. When he was on vacation he was shot in the face with a horrible plasma infection and now he no longer looks like a human.", 
 			"specialty" :
 			{
-				"description" : "使用虚弱无力魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
-				"tooltip" : "魔法增强：虚弱无力",
-				"name" : "虚弱无力"
+				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"tooltip" : "Spell Bonus: Weakness",
+				"name" : "Weakness"
 			}
 		},
 		"images" :

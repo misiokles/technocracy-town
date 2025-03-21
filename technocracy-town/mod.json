@@ -3,9 +3,13 @@
 	"description" : "New town made by Turbanellos, The Forgotten Fields",
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "0.20",
+	"version" : "0.21",
 	"modType" : "Town",	
-	"language": "chinese",
+	"language": "english",
+	"english": {
+		"name": "Technocracy Town",
+		"description": "New town made by Turbanellos, The Forgotten Fields"
+	},
 	"chinese": {
 		"name": "机械",
 		"description": "Turbanellos制作的新城镇，来自迷失领域模组。"
@@ -17,6 +21,7 @@
 	},
 	"changelog" :
 	{
+		"0.21"   : [ "English version" ],
 		"0.20"   : [ "Update to vcmi-1.6 format" ],
 		"0.11"   : [ "Update to vcmi-1.4 format" ],
 		"0.10"   : [ "Initial release" ]

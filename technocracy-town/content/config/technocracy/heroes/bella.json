@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "内尔",
-			"biography" : "内尔脱胎于一个对机械设计热衷的女性工程师。她被按照这位工程师的样子设计出来，成为了她的复制人。但她的思想却终有一天战胜了她的主人。自此，她抛弃了主人曾经赐予她的仿生外壳。",
+			"name" : "Bella",
+			"biography" : "Bella was born out of a female engineer with a passion for mechanical design. She was designed in the likeness of this engineer and became a clone of her. However, her mind one day overcame her master. Since then, she has abandoned the bionic shell her master once gave her.",
 			"specialty" :
 			{
-				"description" : "达到4级以后提高技师或工程师的攻击力与防御力。",
-				"tooltip" : "生物强化：技师",
-				"name" : "技师"
+				"description" : "Increases Speed of any Technicians or Engineers by 1 and their Attack and Defense skills by 5% for 4 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Technicians",
+				"name" : "Technicians"
 			}
 		},
 		"images" :

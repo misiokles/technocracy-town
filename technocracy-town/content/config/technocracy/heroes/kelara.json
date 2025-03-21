@@ -5,13 +5,13 @@
 		"female" : false,
 		"texts" :
 		{
-			"name" : "吉格纳",
-			"biography" : "吉格纳从来都没有放弃过自己的眼睛，尽管改造之前他就失明了。但是曾经是强大巫师的他将眼睛和电子工具结合在一起，这样他不仅能够复明，还能看到别人无法获知的东西。",
+			"name" : "Kelara",
+			"biography" : "Kelara never gave up on his eyes, even though he was blind before the transformation. But once a powerful sorcerer, he combined his eyes with electronic tools so that he could not only regain his sight, but also see things that no one else could be informed of.",
 			"specialty" :
 			{
-				"description" : "在侦察术上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：侦察术",
-				"name" : "侦察术"
+				"description" : "Receives a 5% per level bonus to Scouting skill.",
+				"tooltip" : "Secondary Skill Bonus: Scouting",
+				"name" : "Scouting"
 			}
 		},
 		"images" :

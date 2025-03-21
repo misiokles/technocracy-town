@@ -6,13 +6,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "伊娃",
-			"biography" : "伊娃被称作一个完美的女性机械人。她自制造初期开始，就有着对女性独特的观感，也是这一点，造就了她的完美。",
+			"name" : "Arela",
+			"biography" : "Arela is known as the perfect female cyborg. Since the early days of her production, she has held a unique view of women, and that is what has contributed to her perfection.",
 			"specialty" :
 			{
-				"description" : "在防御术上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：防御术",
-				"name" : "防御术"
+				"description" : "Receives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
 			}
 		},
 		"images" :

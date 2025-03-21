@@ -8,8 +8,8 @@
 		},
 		"name" :
 		{
-			"plural" : "核电子人",
-			"singular" : "核电子人"
+			"plural" : "Nuclear Cyborgs",
+			"singular" : "Nuclear Cyborg"
 		},		
 		"faction": "technocracy",
 		"aiValue" : 2257,

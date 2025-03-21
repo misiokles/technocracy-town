@@ -5,13 +5,13 @@
 		"female" : false,
 		"texts" :
 		{
-			"name" : "拉努加德",
-			"biography" : "拉努加德被铸造族的技师们内置了无数从各地收集来的战术数据。这个年轻的战士可以模仿数据中的各种战术。",
+			"name" : "Horok",
+			"biography" : "Horok was built with countless tactical data gathered from all over the world by the technicians of Technocracy. This young warrior could mimic the various tactics in the data.",
 			"specialty" :
 			{
-				"description" : "在战术技能上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：战术",
-				"name" : "战术"
+				"description" : "Receives a 5% per level bonus to Tactics skill.",
+				"tooltip" : "Secondary Skill Bonus: Tactics",
+				"name" : "Tactics"
 			}
 		},
 		"images" :

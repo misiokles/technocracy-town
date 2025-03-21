@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "瑞贝卡",
-			"biography" : "瑞贝卡是个克里根女妖，当她迷上了机械技术之后，她将自己改造成和之前完全不一样的形象。但是，她心中的恶魔火焰，却永远不会消除。有人说瑞贝卡是铸造族最忠实的拥护者。",
+			"name" : "Serisa",
+			"biography" : "Serisa is a Kreegan devil. When she became fascinated with mechanical technology, she transformed herself into a completely different image. However, the devil's fire in her heart will never be extinguished. Some people say that Serisa is the most loyal supporter of Technocracy'.",
 			"specialty" :
 			{
-				"description" : "达到5级以后提高机械女巫或异变女巫的攻击力与防御力。",
-				"tooltip" : "生物强化：机械女巫",
-				"name" : "机械女巫"
+				"description" : "Increases Speed of any Mechanical Witches or Mechanical Banshees by 1 and their Attack and Defense skills by 5% for 5 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Mechanical Witches",
+				"name" : "Mechanical Witches"
 			}
 		},
 		"images" :

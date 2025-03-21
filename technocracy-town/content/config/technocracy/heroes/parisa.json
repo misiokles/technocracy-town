@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "罗琳",
-			"biography" : "罗琳是唯一没有接受机械改造的人。她的身体不适合机械改造，所以她只能将机甲穿在身上。有时她会不满意铸造族的破坏计划。",
+			"name" : "Parisa",
+			"biography" : "Parisa was the only one who hadn't received mechanical modification. Her body is not suited for mechanical modification, so she can only wear the mech on her body. Sometimes she is not happy with the Technocracy's sabotage program.",
 			"specialty" :
 			{
-				"description" : "使用疗伤魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
-				"tooltip" : "魔法增强：疗伤",
-				"name" : "疗伤"
+				"description" : "Casts Cure with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Cure",
+				"name" : "Cure"
 			}
 		},
 		"images" :

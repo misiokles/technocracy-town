@@ -5,13 +5,13 @@
 		"female" : false,
 		"texts" :
 		{
-			"name" : "麦罗格拉",
-			"biography" : "麦罗格拉是非常聪明的人。这个聪明而且贪婪的电子人知道如何在短时间内挣得更多的钱。",
+			"name" : "Werler",
+			"biography" : "Werler is very smart man. This smart and greedy cyborg knows how to make more money in a short period of time.",
 			"specialty" :
 			{
-				"description" : "为王国每天额外提供350个金币。",
-				"tooltip" : "每天+350个金币",
-				"name" : "+350个金币"
+				"description" : "Increases kingdom's income by 350 gold per day.",
+				"tooltip" : "+350 Gold per day",
+				"name" : "+350 Gold"
 			}
 		},
 		"images" :
