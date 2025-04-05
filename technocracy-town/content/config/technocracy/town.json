@@ -529,7 +529,7 @@
 				"dwellingUpLvl6" :
 				{
 					"description" : "The Advanced Technology Guild allows you to recruit Nuclear Cyborgs",
-					"name" : "Advanced Technology Guild",
+					"name" : "Adv. Technology Guild",
 					"cost" : 
 					{
 						"gold" : 5000,
@@ -680,7 +680,7 @@
 				"Kalenda Castle",
 				"Mawson City",
 				"Foundry City",
-				"Sakosinki.",
+				"Sakosinki",
 				"Seddon Town",
 				"Stanworth"
 			],

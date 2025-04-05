@@ -2,7 +2,7 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"thBarracks" : {
-				"name" : "Barracks",
+				"name" : "Mercenary Base",
 				"creatures" : [[ "thlv1" ]],
 				"templates" : {
 					"default" : {
@@ -12,7 +12,7 @@
 				}
 			},
 			"thSlaughterhouse" : {
-				"name" : "Slaughterhouse",
+				"name" : "Firearms Foundry",
 				"creatures" : [[ "thlv2" ]],
 				"templates" : {
 					"default" : {
@@ -22,7 +22,7 @@
 				}
 			},
 			"thFireBasin" : {
-				"name" : "Fire Basin",
+				"name" : "Workshop",
 				"creatures" : [[ "thlv3" ]],
 				"templates" : {
 					"default" : {	
@@ -32,7 +32,7 @@
 				}
 			},
 			"thAirstrip" : {
-				"name" : "Airstrip",
+				"name" : "Technician Tower",
 				"creatures" : [[ "thlv4" ]],
 				"templates" : {
 					"default" : {
@@ -42,7 +42,7 @@
 				}
 			},
 			"thMachineShop" : {
-				"name" : "Machine Shop",
+				"name" : "Institute of Genetics",
 				"creatures" : [[ "thlv5" ]],
 				"guards" : true,
 				"templates" : {
@@ -53,7 +53,7 @@
 				}
 			},
 			"thAncientRefinery" : {
-				"name" : "Ancient Refinery",
+				"name" : "Technology Guild",
 				"creatures" : [[ "thlv6" ]],
 				"guards" : true,
 				"templates" : {
@@ -64,7 +64,7 @@
 				}
 			},
 			"thGarage" : {
-				"name" : "Garage",
+				"name" : "Temple of Technology",
 				"creatures" : [[ "thlv7" ]],
 				"guards" : true,
 				"templates" : {

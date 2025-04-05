@@ -43,7 +43,7 @@
     "technocracyMoat": {
         "targetType" : "NO_TARGET",
         "type": "ability",
-        "name": "护城河",
+        "name": "Moat",
         "school" : {},
         "level": 0,
         "power": 0,

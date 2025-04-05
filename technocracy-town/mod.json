@@ -3,7 +3,7 @@
 	"description" : "New town made by Turbanellos, The Forgotten Fields",
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "0.21",
+	"version" : "0.22",
 	"modType" : "Town",	
 	"language": "english",
 	"english": {
@@ -21,6 +21,7 @@
 	},
 	"changelog" :
 	{
+		"0.22"   : [ "Synchronize the names of external dwellings with creature dwellings in town to avoid confusion.", "Typos" ],
 		"0.21"   : [ "English version" ],
 		"0.20"   : [ "Update to vcmi-1.6 format" ],
 		"0.11"   : [ "Update to vcmi-1.4 format" ],
