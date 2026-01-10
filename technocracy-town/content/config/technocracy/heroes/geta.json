@@ -41,7 +41,7 @@
 			"bonuses" : 
 			{
 				"ballista": {
-					"limiters" : [ { "parameters" : [ "ballista", false ], "type" : "CREATURE_TYPE_LIMITER" } ],
+					"limiters" : [ { "creature" :  "ballista", "type" : "CREATURE_TYPE_LIMITER" } ],
 					"type" : "ENEMY_DEFENCE_REDUCTION",
 					"val" : 50
 				}

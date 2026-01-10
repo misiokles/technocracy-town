@@ -7,7 +7,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "technocracy/map/dwellings/dwelling-1.def",
-						"mask" : [ "00V", "0BB", "VAB" ]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				}
 			},
@@ -17,7 +17,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "technocracy/map/dwellings/dwelling-2.def",
-						"mask" : [ "000", "0VV", "0BA" ]
+						"mask" : [ "VVV", "VBV", "VAB" ]
 					}
 				}
 			},
@@ -27,7 +27,7 @@
 				"templates" : {
 					"default" : {	
 						"animation" : "technocracy/map/dwellings/dwelling-3.def",
-						"mask" : [ "0VV", "0BB", "0AB" ]
+						"mask" : [ "VVV", "VVB", "VBA" ]
 					}
 				}
 			},
@@ -37,7 +37,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "technocracy/map/dwellings/dwelling-4.def",
-						"mask" : [ "VBB", "BAV" ]
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVVB", "VVVA" ]
 					}
 				}
 			},
@@ -48,7 +48,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "technocracy/map/dwellings/dwelling-5.def",
-						"mask" : [ "0VV", "BBB", "BBA" ]
+						"mask" : [ "VVV", "VBV", "VAB" ]
 					}
 				}
 			},
@@ -59,7 +59,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "technocracy/map/dwellings/dwelling-6.def",
-						"mask" : [ "0VV", "BBB", "BBA" ]
+						"mask" : [ "VVV", "VVB", "VAB" ]
 					}
 				}
 			},
@@ -70,7 +70,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "technocracy/map/dwellings/dwelling-7.def",
-				       "mask" : [ "VVV", "BBB", "VBA" ]
+				       "mask" : [ "VVV", "VVV", "VBV", "VAB" ]
 					}
 				}
 			}

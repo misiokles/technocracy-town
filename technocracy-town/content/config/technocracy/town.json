@@ -72,8 +72,7 @@
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
-					},
-					"id" : 0
+					}
 				},
 				"mageGuild2" :
 				{
@@ -90,7 +89,6 @@
 						"gems" : 4,
 						"gold" : 1000
 					},
-					"id" : 1,
 					"upgrades" : "mageGuild1"
 				},
 				"mageGuild3" :
@@ -106,11 +104,9 @@
 						"crystal" : 6,
 						"gems" : 6,
 						"gold" : 1000
-					},
-					"id" : 2,
-					"upgrades" : "mageGuild2"
+					}
 				},
-								"mageGuild4" :
+				"mageGuild4" :
 				{
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
@@ -123,9 +119,7 @@
                         "crystal": 8,
                         "gems": 8,
                         "gold": 1000
-					},
-					"id" : 3,
-					"upgrades" : "mageGuild3"
+					}
 				},
 				"mageGuild5" :
 				{
@@ -140,9 +134,7 @@
                         "crystal": 10,
                         "gems": 10,
                         "gold": 1000
-					},
-					"id" : 4,
-					"upgrades" : "mageGuild4"
+					}
 				},
 				"tavern" :
 				{
@@ -152,8 +144,7 @@
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 5
+					}
 				},
 				"shipyard" :
 				{
@@ -163,8 +154,7 @@
 					{
 						"wood" : 20,
 						"gold" : 2000
-					},
-					"id" : 6
+					}
 				},
 				"fort" :
 				{
@@ -175,8 +165,7 @@
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
-					},
-					"id" : 7
+					}
 				},
 				"citadel" :
 				{
@@ -186,9 +175,7 @@
 					{
 						"ore" : 5,
 						"gold" : 2500
-					},
-					"id" : 8,
-					"upgrades" : "fort"
+					}
 				},
 				"castle" :
 				{
@@ -199,16 +186,12 @@
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
-					},
-					"id" : 9,
-					"upgrades" : "citadel"
+					}
 				},
 				"villageHall" :
 				{
 					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
-					"mode" : "auto"
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
 				"townHall" :
 				{
@@ -217,10 +200,7 @@
 					"cost" :
 					{
 						"gold" : 2500
-					},
-					"id" : 11,
-					"requires" : [ "tavern" ],
-					"upgrades" : "villageHall"
+					}
 				},
 				"cityHall" :
 				{
@@ -229,10 +209,7 @@
 					"cost" :
 					{
 						"gold" : 5000
-					},
-					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
-					"id" : 12,
-					"upgrades" : "townHall"
+					}
 				},
 				"capitol" :
 				{
@@ -241,10 +218,7 @@
 					"cost" :
 					{
 						"gold" : 10000
-					},
-					"id" : 13,
-					"requires" : [ "castle" ],
-					"upgrades" : "cityHall"
+					}
 				},
 				"marketplace" :
 				{
@@ -254,8 +228,7 @@
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 14
+					}
 				},
 				"resourceSilo" :
 				{
@@ -267,8 +240,7 @@
 						"gold" : 5000
 					},
 					"produce": { "mercury": 1 },
-					"requires" : [ "marketplace" ],
-					"id" : 15
+					"requires" : [ "marketplace" ]
 				},
 				"blacksmith" :
 				{
@@ -279,8 +251,7 @@
 						"wood" : 5,
 						"gold" : 1000
 					},
-					"warMachine" : "ballista",
-					"id" : 16
+					"warMachine" : "ballista"
 				},
 				"horde1" :
 				{
@@ -290,7 +261,6 @@
 					{
 						"gold" : 1000
 					},
-					"id" : 18,
 					"upgrades" : "dwellingLvl1",
 					"requires" : [ "allOf", ["fort"], ["dwellingLvl1"] ]
 				},
@@ -303,29 +273,26 @@
 						"gold" : 1000
 					},
 					"requires" : [ "horde1" ],
-					"upgrades" : "dwellingUpLvl1",
-					"id" : 19,
-					"mode" : "auto"
+					"upgrades" : "dwellingUpLvl1"
 				},
 				"ship" :
 				{
 					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships.",
-
-					"id" : 20
+					"description" : "The Shipyard allows you to purchase ships."
 				},
 				"special1" : 
 				{
 					"description" : "Spy Satellites can expand the visual range around the town",
 					"name" : "Spy Satellite",
-					"height" : "average",
+					"bonuses": [
+						{ "type": "SIGHT_RADIUS", "val": 15 }, // 5 base + 15 bonus = 20 tiles range
+					],
 					"cost" : 
 					{
 						"crystal" : 5,
                          "gold" : 1000
 					},
-			        "requires" : [ "allOf", ["fort"], ["mageGuild1"] ],
-					"id" : 21
+			        "requires" : [ "allOf", ["fort"], ["mageGuild1"] ]
 				},
                 "special2":
                 {
@@ -338,8 +305,7 @@
 						"ore" : 10,
 						"gold": 5000
                      },
-			        "requires" : [ "allOf", ["fort"], ["mageGuild1"] ],
-                     "id": 17
+			        "requires" : [ "allOf", ["fort"], ["mageGuild1"] ]
                 },
                 "special3":
                 {
@@ -354,19 +320,14 @@
 				       "produce":
 				    {
 			           "sulfur":1
-				},
-                       "id": 22
-       
+					}
 				},
 				"grail" :
 				{
 					"description" : "The Fallen Factory increases weekly creature generation by 50 percent, adds 5000 gold per day. All spells can be cast in advanced level at least.",
 					"name" : "Fallen Factory",
-					"id" : 26,
-					"mode" : "grail",
-					"produce": { "gold": 5000 },
 					"bonuses": [
-						{ "type": "STACKS_SPEED", "val": 1, "propagator": "PLAYER_PROPAGATOR" } 						
+						{ "type": "STACKS_SPEED", "val": 1, "propagator": "PLAYER" } 						
 					]
 				},
 				"dwellingLvl1" :
@@ -379,8 +340,7 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"requires" : [ "fort" ],
-					"id" : 30
+					"requires" : [ "fort" ]
 				},
 				"dwellingLvl2" :
 				{
@@ -391,8 +351,7 @@
 						"gold" : 1500,
 						"ore" : 5
 					},
-					"requires" : ["allOf", ["fort"], ["blacksmith"] ],
-					"id" : 31
+					"requires" : ["allOf", ["fort"], ["blacksmith"] ]
 				},
 				"dwellingLvl3" :
 				{
@@ -403,8 +362,7 @@
 						"gold" : 1500,
 						"ore" : 5
 					},
-					"requires" : ["allOf", ["blacksmith"], ["dwellingLvl1"] ],
-					"id" : 32
+					"requires" : ["allOf", ["blacksmith"], ["dwellingLvl1"] ]
 				},
 				"dwellingLvl4" :
 				{
@@ -412,11 +370,10 @@
 					"name" : "Technician Tower",
 					"cost" : 
 					{
-                                               "gold": 2000,
+                        "gold": 2000,
 						"ore" : 10
 					},
-					"requires" : [ "dwellingLvl3" ],
-					"id" : 33
+					"requires" : [ "dwellingLvl3" ]
 				},
 				"dwellingLvl5" :
 				{
@@ -428,8 +385,7 @@
 						"ore" : 5,
 						"mercury": 1
 					},
-					"requires" : [ "allOf", ["dwellingLvl1"], ["dwellingLvl2"] ],
-					"id" : 34
+					"requires" : [ "allOf", ["dwellingLvl1"], ["dwellingLvl2"] ]
 				},
 				"dwellingLvl6" :
 				{
@@ -443,8 +399,7 @@
 						"gems": 5,
 						"mercury": 15
 					},
-					"requires" : [ "allOf", ["dwellingLvl3"], ["dwellingLvl5"] ],
-					"id" : 35
+					"requires" : [ "allOf", ["dwellingLvl3"], ["dwellingLvl5"] ]
 				},
 				"dwellingLvl7" :
 				{
@@ -457,8 +412,7 @@
 						"ore" : 10,
 						"mercury" : 20
 					},
-					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl6"] ],
-					"id" : 36
+					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl6"] ]
 				},
 				"dwellingUpLvl1" :
 				{
@@ -468,7 +422,6 @@
 					{
 						"gold" : 1000
 					},
-					"id" : 37,
 					//"requires" : [ "tavern" ],
 					"upgrades" : "dwellingLvl1"
 				},
@@ -483,7 +436,6 @@
 						"ore": 2,
 						"mercury": 2
 					},
-					"id" : 38,
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" :
@@ -497,7 +449,6 @@
                         "mercury": 5
                      },
                     //"requires" : [ "dwellingUpLvl1" ],
-					"id" : 39,
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" :
@@ -509,7 +460,6 @@
 						"gold" : 2000,
 						"ore": 5
 					},
-					"id" : 40,
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" :
@@ -522,7 +472,6 @@
 						"ore" : 5,
 						"mercury" : 1
 					},
-					"id" : 41,
 					//"requires" : [ "dwellingUpLvl4" ],
 					"upgrades" : "dwellingLvl5"
 				},
@@ -538,7 +487,6 @@
 						"crystal": 3,
 						"mercury": 10
 					},
-					"id" : 42,
 					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" :
@@ -552,7 +500,6 @@
 						"ore" : 20,
 						"mercury" : 20
 					},
-					"id" : 43,
 					//"requires" : [ "mageGuild3" ],
 					"upgrades" : "dwellingLvl7"
 				}				
@@ -597,7 +544,7 @@
 				"scuttleBoat"    : 4,
 				"visions"        : 0,
 				"weakness"       : 10,
-                                "airShield"      : 2,
+                "airShield"      : 2,
 				"antiMagic"      : 20,
 				"earthquake"     : 2,
 				"fireball"       : 2,
